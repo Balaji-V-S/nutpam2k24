@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background-image: url(../Assets/naruto_bg1.png);
+    height: 100vh;
+    background-size: cover;
+    box-shadow: 0px 100px 250px black inset;
+    background-color: transparent;
+}
+.top{
+    display: flex;
+    padding-top: 25px;
+    padding-left: 20px;
+    background-color: transparent;
+}
+.year{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: got;
+    color: red;
+    text-shadow: 0px 0px 3px red;
+    background-color: transparent;
+}
+.top img{
+    background-color: transparent;
+    filter: drop-shadow(0px 0px 4px red);
+}
+.heading{
+    font-size: 13rem;
+    font-family: got;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 0px 0px 15px black;
+    background-color: transparent;
+}
+.navbar{
+    display: flex;
+    margin-top: 280px;
+    justify-content: center;
+    background-color: transparent;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    list-style: none;
+}
+.navbar ul li{
+    margin: 0px 100px;
+    background-color: transparent;
+}
+.navbar ul li a{
+    font-size: 25px;
+    font-family: got;
+    /* text-shadow: 0px 0px 1px white; */
+    background-color: transparent;
+    text-decoration: none;
+}
+.nav1 a{
+    color: #FDE46E;
+}
+.nav2 a{
+    color: #E57373;
+}
+.nav3 a{
+    color: #9819AD;
+}
+.shadow-box{
+    box-shadow: 0px 0px 170px 160px black;
+    background-color: transparent;
+    z-index: 100;
+}
+.naruto{
+    display: flex;
+    background-color: transparent;
+    height: 100vh;
+    z-index: 90;
+    filter: drop-shadow(0px 0px 20px black);
+}
+.jap-text{
+    background-color: transparent;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.technology{
+    background-color: transparent;
+    margin-right: 350px;
+}
+.technology div{
+    background-color: transparent;
+    margin-bottom: 10px;
+    font-size: 40px;
+    text-shadow: 0px 0px 15px black;
+}
+.jap-number{
+    background-color: transparent;
+}
+.jap-number div{
+    font-size: 25px;
+    background-color: transparent;
+    text-shadow: 0px 0px 15px black;
+}
+.timer{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    background-color: transparent;
+}
+.timer p{
+    font-size: 30px;
+    font-family: got;
+    text-shadow: 0px 0px 15px black;
+    background-color: transparent;
+}
+.time{
+    font-family: got;
+    display: flex;
+    margin-right: 15px;
+    background-color: transparent;
+}
+.time h1{
+    font-size: 40px;
+    font-family: got;
+    margin-right: 10px;
+    text-shadow: 0px 0px 15px black;
+    background-color: transparent;
+}

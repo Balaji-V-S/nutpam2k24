@@ -1,0 +1,14 @@
+*{
+  background-color: black;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: 'got';
+  src: url(../public/fonts/go3v2.ttf);
+}
+@font-face {
+  font-family: 'jap';
+  src: url(../public/fonts/Avatar\ Airbender.ttf);
+}
