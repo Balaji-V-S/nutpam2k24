@@ -138,10 +138,9 @@
 .register{
     background-color: #FDE46E;
     position: absolute;
-    display: flex;
     font-family: got;
+    left: 50%;
     border-radius: 10px;
-    z-index: 100;
     border: white 2px solid;
     padding: 10px;
 }
