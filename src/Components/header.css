@@ -79,11 +79,11 @@
 .nav3 a{
     color: #9819AD;
 } */
-.shadow-box{
+/* .shadow-box{
     box-shadow: 0px 0px 170px 160px black;
     background-color: transparent;
     z-index: 100;
-}
+} */
 .naruto{
     display: flex;
     background-color: transparent;
@@ -252,5 +252,46 @@
     }
     .top img{
         height: 20px;
+    }
+}
+@media (max-width:385px){
+    .heading{
+        font-size: 4rem;
+        margin-bottom: 200px;
+        margin-top: 50px;
+    }
+    .bg{
+        background-image: url(../Assets/naruto_bg1_mob.png);
+    }
+    .timer{
+        margin-top: 100px;
+        display: block;
+        position: relative;
+        left: 35%;
+    }
+    .timer p{
+        font-size: 20px;
+    }
+    .time h1{
+        font-size: 25px;
+    }
+    .register{
+        padding: 10px;
+    }
+    .technology div{
+        display: none;
+    }
+    .jap-number div{
+        display: none;
+    }
+    .year{
+        font-size: 15px;
+    }
+    .top img{
+        height: 20px;
+    }
+    .empty{
+        height: 30px;
+        background-color: transparent;
     }
 }

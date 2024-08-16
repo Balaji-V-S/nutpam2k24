@@ -87,6 +87,7 @@ const Header = () => {
               <p>Seconds</p>
             </div>
           </div>
+          <div className="empty"></div>
         </div>
         <div className="shadow-box"></div>
     </>
