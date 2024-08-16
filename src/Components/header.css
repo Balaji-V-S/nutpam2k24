@@ -160,6 +160,11 @@
     text-shadow: 0px 0px 15px black;
     background-color: transparent;
 }
+
+.empty{
+    height: 80px;
+    background-color: transparent;
+}
 @media (max-width:1190px){
     .heading{
         font-size: 11rem;
