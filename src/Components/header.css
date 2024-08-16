@@ -96,11 +96,12 @@
     background-color: transparent;
     display: flex;
     margin-top: 10px;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 .technology{
     background-color: transparent;
+    margin-right: 50px;
 }
 .technology div{
     background-color: transparent;
@@ -110,6 +111,7 @@
 }
 .jap-number{
     background-color: transparent;
+    margin-left: 50px;
 }
 .jap-number div{
     font-size: 25px;
@@ -119,7 +121,8 @@
 .register{
     background-color: #FDE46E;
     font-family: got;
-    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
     left: 50%;
     border-radius: 10px;
     border: white 2px solid;
