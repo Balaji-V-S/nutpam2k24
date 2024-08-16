@@ -259,7 +259,7 @@
         height: 20px;
     }
 }
-@media (max-width:385px){
+@media (max-width:420px){
     .heading{
         font-size: 4rem;
         margin-bottom: 200px;
