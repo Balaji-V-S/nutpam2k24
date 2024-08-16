@@ -215,6 +215,8 @@
     }
     .time h1{
         font-size: 25px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .technology div{
         font-size: 20px;  
