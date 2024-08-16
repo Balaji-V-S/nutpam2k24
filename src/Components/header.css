@@ -174,12 +174,69 @@
         font-size: 30px;  
     }
     .jap-number div{
-        font-size: 20px;
+        font-size: 25px;
     }
     .year{
         font-size: 30px;
     }
-    .top{
+}
+@media (max-width:990px){
+    .heading{
+        font-size: 9rem;
+    }
+    .timer p{
+        font-size: 25px;
+    }
+    .time h1{
+        font-size: 30px;
+    }
+    .technology div{
+        font-size: 25px;  
+    }
+    .jap-number div{
         font-size: 20px;
+    }
+    .year{
+        font-size: 25px;
+    }
+}
+@media (max-width:750px){
+    .heading{
+        font-size: 7rem;
+    }
+    .timer p{
+        font-size: 20px;
+    }
+    .time h1{
+        font-size: 25px;
+    }
+    .technology div{
+        font-size: 20px;  
+    }
+    .jap-number div{
+        font-size: 15px;
+    }
+    .year{
+        font-size: 20px;
+    }
+}
+@media (max-width:550px){
+    .heading{
+        font-size: 5rem;
+    }
+    .timer p{
+        font-size: 15px;
+    }
+    .time h1{
+        font-size: 20px;
+    }
+    .technology div{
+        font-size: 15px;  
+    }
+    .jap-number div{
+        font-size: 10px;
+    }
+    .year{
+        font-size: 15px;
     }
 }
