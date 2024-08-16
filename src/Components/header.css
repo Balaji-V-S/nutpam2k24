@@ -36,6 +36,7 @@
 }
 .top img{
     background-color: transparent;
+    height: 50px;
     filter: drop-shadow(0px 0px 4px red);
 }
 .heading{
@@ -123,7 +124,6 @@
     font-family: got;
     margin-left: 50px;
     margin-right: 50px;
-    left: 50%;
     border-radius: 10px;
     border: white 2px solid;
     padding: 10px;
@@ -179,6 +179,9 @@
     .year{
         font-size: 30px;
     }
+    .top img{
+        height: 40px;
+    }
 }
 @media (max-width:990px){
     .heading{
@@ -198,6 +201,9 @@
     }
     .year{
         font-size: 25px;
+    }
+    .top img{
+        height: 25px;
     }
 }
 @media (max-width:750px){
@@ -219,6 +225,9 @@
     .year{
         font-size: 20px;
     }
+    .top img{
+        height: 20px;
+    }
 }
 @media (max-width:550px){
     .heading{
@@ -238,5 +247,8 @@
     }
     .year{
         font-size: 15px;
+    }
+    .top img{
+        height: 20px;
     }
 }

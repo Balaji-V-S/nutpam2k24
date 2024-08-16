@@ -39,7 +39,7 @@ const Header = () => {
     <>
         <div className='bg'>
           <div className="top">
-            <img src={logo} alt="img" height="50px"/>
+            <img src={logo} alt="img"/>
             <h2 className="year">2 K 2 4</h2>
           </div>
           <div className="heading">NUTPAM</div>
