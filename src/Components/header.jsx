@@ -83,6 +83,9 @@ const Header = () => {
               <p>Seconds</p>
             </div>
           </div>
+          <div className="register">
+            <a href="https://forms.gle/6YfPugs214DG3je87">REGISTER</a>
+          </div>
         </div>
         <div className="shadow-box"></div>
     </>
