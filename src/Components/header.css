@@ -25,9 +25,8 @@
 }
 .year{
     font-weight: bold;
-    position: absolute;
-    left: 50%;
     font-size: 35px;
+    margin-left: 10px;
     font-family: got;
     color: red;
     text-shadow: 0px 0px 3px red;
@@ -95,12 +94,11 @@
     background-color: transparent;
     display: flex;
     margin-top: 10px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .technology{
     background-color: transparent;
-    margin-right: 350px;
 }
 .technology div{
     background-color: transparent;
@@ -116,9 +114,23 @@
     background-color: transparent;
     text-shadow: 0px 0px 15px black;
 }
+.register{
+    background-color: #FDE46E;
+    font-family: got;
+    margin-top: 30px;
+    left: 50%;
+    border-radius: 10px;
+    border: white 2px solid;
+    padding: 10px;
+}
+.register a{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
 .timer{
     display: flex;
-    margin-top: 25px;
+    margin-top: 40px;
     justify-content: center;
     background-color: transparent;
 }
@@ -131,28 +143,15 @@
 .time{
     font-family: got;
     display: flex;
-    margin-right: 15px;
+    margin-right: 5px;
+    margin-left: 15px;
     background-color: transparent;
 }
 .time h1{
     font-size: 40px;
     font-family: got;
+    margin-left: 10px;
     margin-right: 10px;
     text-shadow: 0px 0px 15px black;
     background-color: transparent;
-}
-.register{
-    background-color: #FDE46E;
-    position: absolute;
-    font-family: got;
-    margin-top: 20px;
-    left: 50%;
-    border-radius: 10px;
-    border: white 2px solid;
-    padding: 10px;
-}
-.register a{
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
 }

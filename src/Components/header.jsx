@@ -57,6 +57,10 @@ const Header = () => {
                   <div>技</div>
                   <div >術</div>
                 </div>
+                
+                <div className="register">
+                    <a href="https://forms.gle/6YfPugs214DG3je87">REGISTER</a>
+                </div>
                 <div className="jap-number">
                     <div>二</div>
                     <div>千</div>
@@ -82,9 +86,6 @@ const Header = () => {
               <h1>{time}</h1>
               <p>Seconds</p>
             </div>
-          </div>
-          <div className="register">
-            <a href="https://forms.gle/6YfPugs214DG3je87">REGISTER</a>
           </div>
         </div>
         <div className="shadow-box"></div>
