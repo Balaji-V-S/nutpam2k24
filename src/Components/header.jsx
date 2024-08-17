@@ -1,7 +1,7 @@
 import React,{useRef,useState} from 'react'
 import logo from '../Assets/logo.png'
 import naruto from '../Assets/naruto.png'
-import './header.css'
+import '../styles/header.css'
 
 //header
 const Header = () => {
