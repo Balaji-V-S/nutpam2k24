@@ -1,0 +1,10 @@
+.parent{
+    background-image: url(../Assets/aboutBG.png); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:  rgb(0, 0, 0);
+    height: 70%;
+    padding: 2rem 0; /* Add padding to provide space for content */
+}
