@@ -1,0 +1,299 @@
+/* Resetting styles for a consistent look */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Background styles for the main container */
+.bg {
+    background-image: url(../Assets/naruto_bg1.png);
+    background-size: cover;         /* Ensures the image covers the entire element */
+    background-position: center;    /* Centers the image */
+    background-repeat: no-repeat;   /* Prevents the image from repeating */
+    background-color: transparent;   
+    height: 100vh;                  /* Ensures the background covers the full viewport height */
+    width: 100%;                    /* Ensures the background covers the full width */
+    box-shadow: 0px 100px 250px black inset; /* Optional: Adds an inset shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;            /* Centers content horizontally */
+    position: relative;             /* Position relative for the timer positioning */
+}
+
+/* Fixed position for the top section */
+.top {
+    position: fixed;                /* Fix the position to the top-left corner */
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 10px;                  /* Adjust padding as needed */
+    background-color: transparent;
+    align-items: center;            /* Align items vertically in the center */
+    z-index: 1000;                  /* Ensure it stays on top of other content */
+}
+
+/* Styles for the year element */
+.year {
+    font-weight: bold;
+    font-size: 2rem;                /* Responsive font size */
+    margin-left: 10px;
+    font-family: got;
+    color: red;
+    text-shadow: 0px 0px 3px red;
+    background-color: transparent;
+}
+
+/* Styles for the logo image in the top section */
+.top img {
+    height: 4rem;                   /* Responsive height */
+    filter: drop-shadow(0px 0px 4px red);
+}
+
+/* Heading styles */
+.heading {
+    font-size: 18rem;
+    font-family: got;
+    color: white;
+    text-shadow: 0px 0px 15px black;
+    background-color: transparent;
+    margin-top: 15%;               /* Add margin to make space for fixed top section */
+}
+
+/* Styles for the timer container */
+.timer {
+    position: absolute;              /* Absolute positioning to place it at the bottom */
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;        /* Center the timer horizontally */
+    padding: 20px 0;                /* Optional padding */
+}
+
+/* Timer styles for each time unit */
+.timer .time {
+    font-family: got;
+    display: flex;
+    flex-direction: column;          /* Align time unit and label vertically */
+    align-items: center;
+    margin: 0 10px;                  /* Spacing between time units */
+}
+
+.timer h1 {
+    font-size: 40px;
+    margin: 0;
+    text-shadow: 0px 0px 15px black;
+}
+
+.timer p {
+    font-size: 16px;
+    margin: 0;
+    text-shadow: 0px 0px 15px black;
+}
+
+/* Styles for jap-text container */
+.jap-text {
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+/* Technology section styles */
+.technology {
+    margin-right: 50px;
+}
+
+/* Styles for technology div */
+.technology div {
+    margin-bottom: 10px;
+    font-size: 40px;
+    text-shadow: 0px 0px 15px black;
+}
+
+/* Jap-number section styles */
+.jap-number {
+    margin-left: 50px;
+}
+
+/* Styles for jap-number div */
+.jap-number div {
+    font-size: 25px;
+    text-shadow: 0px 0px 15px black;
+}
+
+/* Register button styles */
+.register {
+    background-color: #FDE46E;
+    font-family: got;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: white 2px solid;
+    padding: 10px;
+}
+
+/* Register link styles */
+.register a {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* Empty space at the bottom of the .bg container */
+.empty {
+    height: 80px;
+    background-color: transparent;
+}
+
+/* Responsive styles */
+@media (max-width: 1190px) {
+    .heading {
+        font-size: 11rem;
+    }
+    .timer p {
+        font-size: 30px;
+    }
+    .timer h1 {
+        font-size: 35px;
+    }
+    .technology div {
+        font-size: 30px;  
+    }
+    .jap-number div {
+        font-size: 25px;
+    }
+    .year {
+        font-size: 1.5rem;
+    }
+    .top img {
+        height: 3rem;
+    }
+}
+
+@media (max-width: 990px) {
+    .heading {
+        font-size: 9rem;
+    }
+    .timer p {
+        font-size: 25px;
+    }
+    .timer h1 {
+        font-size: 30px;
+    }
+    .technology div {
+        font-size: 25px;  
+    }
+    .jap-number div {
+        font-size: 20px;
+    }
+    .year {
+        font-size: 1.2rem;
+    }
+    .top img {
+        height: 2.5rem;
+    }
+}
+
+@media (max-width: 915px) {
+    .heading {
+        font-size: 7rem;
+    }
+    .timer p {
+        font-size: 20px;
+    }
+    .timer h1 {
+        font-size: 25px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .technology div {
+        font-size: 20px;  
+    }
+    .jap-number div {
+        font-size: 15px;
+    }
+    .year {
+        font-size: 1rem;
+    }
+    .top img {
+        height: 2rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .heading {
+        font-size: 5rem;
+    }
+    .timer p {
+        font-size: 15px;
+    }
+    .timer h1 {
+        font-size: 20px;
+    }
+    .technology div {
+        font-size: 15px;  
+    }
+    .jap-number div {
+        font-size: 10px;
+    }
+    .year {
+        font-size: 0.8rem;
+    }
+    .top img {
+        height: 1.5rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .heading {
+        font-size: 4rem;
+        margin-bottom: 200px;
+        margin-top: 50px;
+    }
+    .bg {
+        background-image: url(../Assets/naruto_bg1_mob.png);
+    }
+    .timer {
+        padding: 20px 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .timer p {
+        font-size: 20px;
+    }
+    .timer h1 {
+        font-size: 25px;
+    }
+    .register {
+        padding: 10px;
+    }
+    .technology div {
+        display: none;
+    }
+    .jap-number div {
+        display: none;
+    }
+    .year {
+        font-size: 0.8rem;
+    }
+    .top img {
+        height: 1.5rem;
+    }
+    .empty {
+        height: 30px;
+        background-color: transparent;
+    }
+}
