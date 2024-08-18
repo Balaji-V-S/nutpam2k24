@@ -9,35 +9,23 @@
 }
 
 .content-wrapper {
+  display: flex;
+  align-items: center;
   text-align: center;
   color: white;
 }
 
-.img-holder {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.img-holder img {
-  width: 150px; /* Adjust size as needed */
-  height: auto;
-}
-
 .logo-holder {
-  position: absolute;
-  top: 50%;
-  left: 50px; /* Adjust the position as needed */
-  transform: translateY(-50%);
+  margin-right: 20px; /* Adjust space between logo and content as needed */
 }
 
 .logo-holder img {
-  width: 100px; /* Adjust size as needed */
+  width: 200px; /* Adjust size as needed */
   height: auto;
 }
 
 .content {
-  margin-top: 20px;
-  font-size: 1.2rem;
+  max-width: 1000px; /* Adjust width as needed */
+  font-size: 1rem;
   line-height: 1.5;
 }
