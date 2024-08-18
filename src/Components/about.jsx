@@ -14,22 +14,6 @@
 // }
 
 // export default about
-// import React from 'react'
-// import deptImg from '../Assets/deptImg.png'
-
-// const about = () => {
-//   return (
-//     <div className='parent'>
-//       <div>
-//         <div id='img-holder'>
-//           <img src={deptImg} alt="CSE Dept Logo" />
-//         </div>
-//       </div> 
-//     </div>
-//   )
-// }
-
-// export default about
 import React from 'react'
 import aboutBG from '../Assets/aboutBG.png'
 import deptLogo from '../Assets/deptLogo.png'
@@ -53,4 +37,3 @@ const About = () => {
 export default About
 
 
-export default About
