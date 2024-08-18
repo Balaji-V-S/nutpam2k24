@@ -6,30 +6,33 @@
     background-repeat: no-repeat;
     text-align: center;
     color: white;
-    height: 70%;
-    padding: 2rem 0; /* Add padding to provide space for content */
+    padding: 2rem 0;
+    height: 80%;
 }
 
 /* Container for footer content */
 .footer-container {
     padding: 3rem 0;
-    color: transparent;
 }
 
 /* Flexbox container to center the columns */
 .footer-col {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 /* Video wrapper for responsive iframe */
 .video-wrapper {
+    display: inline; /* Make it behave like an inline element */
     position: relative;
-    width: 100%; /* Full width of its container */
-    max-width: 800px; /* Max width to limit size on large screens */
-    height: 0;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
-    margin: 0 auto; /* Center the wrapper horizontally */
+    aspect-ratio: 16/9;
+    width: 70%; /*Adjust width to container */
+    padding-left: 20px; /* Add padding to the left */
+    padding-right: 20px; /* Add padding to the right */
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    margin: 0 auto;
+    box-sizing: border-box; /* Ensures padding is included in width calculation */
 }
 
 /* Styling the iframe */
@@ -40,7 +43,6 @@
     width: 100%;
     height: 100%;
     border-radius: 8px; /* Optional: Adds rounded corners */
-    border: none; /* Remove default border */
 }
 
 /* General styles for paragraph text */
@@ -48,31 +50,33 @@ p {
     font-family: got;
     text-shadow: 0px 0px 15px black;
     font-size: 2em;
-    margin-bottom: 8%;
+    margin-bottom: 2rem;
 }
 
 /* Responsive adjustments for different screen sizes */
 
-/* Tablet view and below (min-width: 768px) */
+/* Tablet view and below (max-width: 768px) */
 @media (max-width: 768px) {
     .video-wrapper {
-        max-width: 90%; /* Ensure it fits well on smaller screens */
-        padding-top: 56.25%; /* 16:9 Aspect Ratio */
+        max-width: 90%; /* Smaller width for tablets */
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     p {
-        font-size: 1.8em; /* Slightly smaller font size for better fit */
+        font-size: 1.8em;
     }
 }
 
-/* Mobile view (min-width: 480px) */
+/* Mobile view (max-width: 480px) */
 @media (max-width: 480px) {
     .video-wrapper {
-        max-width: 100%; /* Full width on very small screens */
-        padding-top: 75%; /* Adjust aspect ratio for smaller screens */
+        max-width: 100%; /* Full width for small screens */
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     p {
-        font-size: 1.5em; /* Further reduce font size for mobile screens */
+        font-size: 1.5em;
     }
 }

@@ -1,10 +1,31 @@
-.parent{
-    background-image: url(../Assets/aboutBG.png); /* Replace with your image URL */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    color:  rgb(0, 0, 0);
-    height: 70%;
-    padding: 2rem 0; /* Add padding to provide space for content */
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.logo-holder {
+  margin-right: 20px; /* Adjust space between logo and content as needed */
+}
+
+.logo-holder img {
+  width: 200px; /* Adjust size as needed */
+  height: auto;
+}
+
+.content {
+  max-width: 1000px; /* Adjust width as needed */
+  font-size: 1rem;
+  line-height: 1.5;
 }
