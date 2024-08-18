@@ -1,10 +1,5 @@
 import React from 'react';
-import {
-  MDBFooter,
-  MDBContainer,
-  MDBCol,
-  MDBRow,
-} from 'mdb-react-ui-kit';
+import { MDBFooter, MDBContainer, MDBCol, MDBRow } from 'mdb-react-ui-kit';
 import '../styles/knowmore.css'; // Import the CSS file
 
 const Know = () => {
@@ -12,9 +7,7 @@ const Know = () => {
     <MDBFooter className='footer'>
       <MDBContainer className='footer-container'>
         <div className='iframe-title'>
-          <p>
-            know more about this symposium
-          </p>
+          <p>know more about this symposium</p>
         </div>
         <MDBRow className='d-flex justify-content-center'>
           <MDBCol lg='8' md='10' sm='12' className='footer-col'>
@@ -31,6 +24,6 @@ const Know = () => {
       </MDBContainer>
     </MDBFooter>
   );
-}
+};
 
 export default Know;
