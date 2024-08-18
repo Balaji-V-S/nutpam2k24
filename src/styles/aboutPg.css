@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import deptImg from '../Assets/deptImg.png'
 import aboutBG from '../Assets/aboutBG.png'
@@ -23,3 +24,36 @@ const About = () => {
 }
 
 export default About
+=======
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.logo-holder {
+  margin-right: 20px; /* Adjust space between logo and content as needed */
+}
+
+.logo-holder img {
+  width: 200px; /* Adjust size as needed */
+  height: auto;
+}
+
+.content {
+  max-width: 1000px; /* Adjust width as needed */
+  font-size: 1rem;
+  line-height: 1.5;
+}
+>>>>>>> 762d3c89e20e966b5648bb525ca87b8a9c7c0231
