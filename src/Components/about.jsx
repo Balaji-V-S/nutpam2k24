@@ -1,9 +1,14 @@
 import React from 'react'
+import deptImg from '../Assets/deptImg.png'
 
 const about = () => {
   return (
     <div className='parent'>
-      Sairam College's CSE department delivers a forward-thinking education with a focus on practical experience and industry connections. The program features modern labs and a diverse faculty, ensuring students gain both theoretical knowledge and hands-on skills. 
+      <div>
+        <div id='img-holder'>
+          <img src={deptImg} alt="CSE Dept Logo" />
+        </div>
+      </div> 
     </div>
   )
 }

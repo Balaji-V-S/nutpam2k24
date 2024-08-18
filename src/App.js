@@ -13,7 +13,6 @@ function App() {
       <About/>
       <Know/>
       {/* <Time/>
-      <About/>
       <Sponsors/>
       <Footer/> */}
     </div>
