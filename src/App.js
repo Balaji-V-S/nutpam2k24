@@ -12,6 +12,7 @@ function App() {
       <Header/>
       <About/>
       <Know/>
+      <Footer/>
       {/* <Time/>
       <Sponsors/>
       <Footer/> */}
