@@ -63,8 +63,9 @@
     color: white;
     text-shadow: 0px 0px 15px black;
     background-color: transparent;
-    margin-top: 15%;               /* Add margin to make space for fixed top section */
+    /* margin-top: 10%;               Add margin to make space for fixed top section */
 }
+
 
 /* Styles for the timer container */
 .timer {
@@ -155,6 +156,8 @@
 }
 
 /* Responsive styles */
+
+
 @media (max-width: 1190px) {
     .heading {
         font-size: 11rem;
@@ -163,7 +166,7 @@
         font-size: 30px;
     }
     .timer h1 {
-        font-size: 35px;
+        font-size: 20px;
     }
     .technology div {
         font-size: 30px;  
@@ -178,6 +181,31 @@
         height: 3rem;
     }
 }
+
+@media (max-width: 1250px) {
+    .heading {
+        font-size: 15rem;
+    }
+    .timer p {
+        font-size: 30px;
+    }
+    .timer h1 {
+        font-size: 20px;
+    }
+    .technology div {
+        font-size: 30px;  
+    }
+    .jap-number div {
+        font-size: 25px;
+    }
+    .year {
+        font-size: 1.5rem;
+    }
+    .top img {
+        height: 3rem;
+    }
+}
+
 
 @media (max-width: 990px) {
     .heading {
