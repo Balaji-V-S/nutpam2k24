@@ -12,9 +12,7 @@ function App() {
       <Header/>
       <About/>
       <Know/>
-      {/* <Time/>
-      <Sponsors/>
-      <Footer/> */}
+      <Footer/>
     </div>
   );
 }
