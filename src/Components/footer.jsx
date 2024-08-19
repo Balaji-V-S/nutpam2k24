@@ -3,7 +3,6 @@ import logofooter from '../Assets/img/sai-footer.png'
 import mail from '../Assets/img/mail.png'
 import insta from '../Assets/img/insta.png'
 import facebook from '../Assets/img/facebook.png'
-import linkedin from '../Assets/img/linkedin.png'
 import twitter from '../Assets/img/twitter.png'
 import '../styles/footerStyle.css'
 
@@ -21,7 +20,7 @@ const footer = () => {
       <p className="mail-id">nutpam<span>&#64;</span>sairamit.edu.in</p>
     </div>
     <div className="contact">
-      <a href="#"><img src={linkedin} className="linkedin-logo" alt="LinkedIn"/></a>
+      {/* <a href="#"><img src={linkedin} className="linkedin-logo" alt="LinkedIn"/></a> */}
       <a href="https://www.instagram.com/nutpam_2024"><img src={insta} className="instagram-logo" alt="Instagram"/></a>
       <a href="https://www.facebook.com/share/4hPngiza8qPuVEa4/?mibextid=qi2Omg"><img src={facebook} className="facebook-logo" alt="Facebook"/></a>
       <a href="https://x.com/@Nutpam2k24"><img src={twitter} className="twitter-logo" alt="Twitter"/></a>
