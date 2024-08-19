@@ -1,6 +1,7 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React,{useRef,useState} from 'react'
 import logo from '../Assets/logo.png'
-import naruto from '../Assets/naruto.png'
+// import naruto from '../Assets/naruto.png'
 import '../styles/header.css'
 
 //header
