@@ -1,0 +1,162 @@
+@import url('https://fonts.cdnfonts.com/css/gang-of-three');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gang of Three', sans-serif;
+  font-size: 100%;
+}
+
+.footer-bg{
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 5% 2%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.clg-det {
+  flex: 1 1 30%;
+  max-width: 35%;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.clg {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2%;  
+}
+
+.clg p, .mail p {
+  margin-left: 2%;
+}
+
+.mail {
+  margin-left: 3%;
+  display: flex;
+  align-items: center;
+}
+
+.mail-logo {
+  width: 30px; 
+  height: auto;
+  margin-right: 10px;
+}
+
+.mail-id span {
+  font-family: sans-serif;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15%;
+  margin-top: 15%;
+}
+
+.contact a {
+  margin: 0 10px;
+}
+
+.contact img {
+  width: 25px; 
+  height: auto;
+}
+
+.coordinators-det {
+  flex: 1 1 30%; 
+  max-width: 30%;
+  padding: 1% 0%;
+  padding-left: 1.2%;
+  margin-bottom: 20px;
+}
+
+.coordinators-det p {
+  margin: 5px 0;
+}
+
+.co-name {
+  color: gray;
+  margin-left: 10px;
+}
+
+.map-container {
+  flex: 1 1 35%;
+  aspect-ratio: 1/1;
+  max-width: 35%;
+  max-height: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100;
+  border: 0;
+}
+
+@media (max-width: 1024px) {
+  .footer-bg {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .clg-det, .coordinators-det, .map-container {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .contact {
+    margin-right: 0;
+    margin-top: 20px;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-bg {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .clg,.mail{
+    width: 100%;
+    display: inline;
+    align-items: center ;
+  }
+
+  .contact {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .contact a {
+    margin: 5px 0;
+  }
+
+  .map-container iframe {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sai-footer, .mail-logo {
+    padding: 5%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    }
+
+  .contact img {
+    width: 20px; 
+  }
+
+  .map-container iframe {
+    height: 200px; 
+  }
+}
