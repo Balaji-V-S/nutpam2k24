@@ -1,4 +1,3 @@
-
 import React from 'react'
 import aboutBG from '../Assets/aboutBG.png'
 import deptLogo from '../Assets/deptLogo.png'

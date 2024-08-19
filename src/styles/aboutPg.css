@@ -6,6 +6,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding: 20px;
 }
 
 .content-wrapper {
@@ -13,6 +14,7 @@
   align-items: center;
   text-align: center;
   color: white;
+  flex-direction: row; /* Default layout for larger screens */
 }
 
 .logo-holder {
@@ -28,4 +30,42 @@
   max-width: 1000px; /* Adjust width as needed */
   font-size: 1rem;
   line-height: 1.5;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column; /* Stack logo and content vertically */
+    text-align: center;
+  }
+
+  .logo-holder {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .logo-holder img {
+    width: 150px; /* Scale down the logo for smaller screens */
+  }
+
+  .content {
+    font-size: 0.9rem; /* Adjust text size for smaller screens */
+    line-height: 1.4;
+    max-width: 90%; /* Allow more space for content on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .content-wrapper {
+    padding: 10px;
+  }
+
+  .logo-holder img {
+    width: 120px; /* Further reduce logo size on very small screens */
+  }
+
+  .content {
+    font-size: 0.8rem; /* Adjust text size for very small screens */
+    line-height:1.3;
+  }
 }

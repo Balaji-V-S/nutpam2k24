@@ -26,7 +26,6 @@
 .video-wrapper {
     display: inline; /* Make it behave like an inline element */
     position: relative;
-    aspect-ratio: 16/9;
     width: 70%; /*Adjust width to container */
     padding-left: 20px; /* Add padding to the left */
     padding-right: 20px; /* Add padding to the right */

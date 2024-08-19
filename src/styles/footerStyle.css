@@ -1,65 +1,61 @@
-@import url('https://fonts.cdnfonts.com/css/gang-of-three');
-
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Gang of Three', sans-serif;
-  font-size: 100%;
+  font-family: got, sans-serif;
 }
 
 .footer-bg{
-  background-color: black;
-  color: white;
   display: flex;
-  padding: 5% 2%;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-}
-
-.clg-det {
-  flex: 1 1 30%;
-  max-width: 35%;
-  margin-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  align-items: center;
+  padding: 30px 0px;
+  justify-content: space-evenly;
+  background-color: black;
 }
 
 .clg {
   display: flex;
-  align-items: center;
-  padding-bottom: 2%;  
+  padding: 10px;
 }
-
-.clg p, .mail p {
-  margin-left: 2%;
-}
-
-.mail {
-  margin-left: 3%;
-  display: flex;
-  align-items: center;
-}
-
-.mail-logo {
-  width: 30px; 
-  height: auto;
+.sai-footer{
+  height: 40px;
   margin-right: 10px;
 }
 
+.clg-name{
+  font-size: 16px;
+  display: flex;
+  color: #32A3FF;
+  align-items: center;
+}
+
+.mail {
+  display: flex;
+  padding: 10px;
+}
+.mail-logo {
+  height: 35px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.mail-id {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
 .mail-id span {
   font-family: sans-serif;
+  font-size: 16px;
 }
 
 .contact {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-right: 15%;
-  margin-top: 15%;
+  justify-content: start;
+  padding: 20px;
 }
 
 .contact a {
-  margin: 0 10px;
+  margin-right: 50px;
 }
 
 .contact img {
@@ -67,36 +63,16 @@
   height: auto;
 }
 
-.coordinators-det {
-  flex: 1 1 30%; 
-  max-width: 30%;
-  padding: 1% 0%;
-  padding-left: 1.2%;
-  margin-bottom: 20px;
+.co-heading{
+  font-size: 20px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
-
-.coordinators-det p {
-  margin: 5px 0;
-}
-
 .co-name {
   color: gray;
   margin-left: 10px;
-}
-
-.map-container {
-  flex: 1 1 35%;
-  aspect-ratio: 1/1;
-  max-width: 35%;
-  max-height: 50%;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.map-container iframe {
-  width: 100%;
-  height: 100;
-  border: 0;
+  margin-top: 5px;
+  font-size: 16px;
 }
 
 @media (max-width: 1024px) {
