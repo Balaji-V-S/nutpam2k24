@@ -5,16 +5,15 @@
     box-sizing: border-box;
 }
 
-/* Background styles for the main container */
+/* Background styles for the main container with gradient */
 .bg {
-    background-image: url(../Assets/naruto_bg1.png);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+                      url(../Assets/naruto_bg1.png);
     background-size: cover;         /* Ensures the image covers the entire element */
     background-position: center;    /* Centers the image */
     background-repeat: no-repeat;   /* Prevents the image from repeating */
-    background-color: transparent;   
     height: 100vh;                  /* Ensures the background covers the full viewport height */
     width: 100%;                    /* Ensures the background covers the full width */
-    box-shadow: 0px 100px 250px black inset; /* Optional: Adds an inset shadow */
     display: flex;
     flex-direction: column;
     align-items: center;            /* Centers content horizontally */
@@ -60,7 +59,6 @@
     /* margin-top: 10%;               Add margin to make space for fixed top section */
 }
 
-
 /* Styles for the timer container */
 .timer {
     position: absolute;              /* Absolute positioning to place it at the bottom */
@@ -79,6 +77,8 @@
     flex-direction: column;          /* Align time unit and label vertically */
     align-items: center;
     margin: 0 10px;                  /* Spacing between time units */
+    color: white;
+    text-shadow: 0px 0px 10px black;
 }
 
 .timer h1 {
@@ -143,6 +143,26 @@
     text-decoration: none;
 }
 
+/* Black gradient at the top and bottom */
+.bg:before, .bg:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    left: 0;
+    z-index: 999;
+}
+
+.bg:before {
+    top: 0;
+    background: linear-gradient(to bottom, black, transparent);
+}
+
+.bg:after {
+    bottom: 0;
+    background: linear-gradient(to top, black, transparent);
+}
+
 /* Empty space at the bottom of the .bg container */
 .empty {
     height: 80px;
@@ -150,7 +170,6 @@
 }
 
 /* Responsive styles */
-
 
 @media (max-width: 1190px) {
     .heading {
@@ -199,7 +218,6 @@
         height: 3rem;
     }
 }
-
 
 @media (max-width: 990px) {
     .heading {
