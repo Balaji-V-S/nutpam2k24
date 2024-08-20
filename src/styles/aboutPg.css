@@ -49,11 +49,18 @@
 
 .logo-holder {
   margin-right: 20px; /* Adjust space between logo and content as needed */
+  position: relative;
 }
 
 .logo-holder img {
   width: 200px; /* Adjust size as needed */
   height: auto;
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for scaling and highlighting */
+}
+
+.logo-holder img:hover {
+  transform: scale(1.1); /* Slightly enlarge the logo on hover */
+  filter: brightness(1.2); /* Increase brightness on hover for a highlighting effect */
 }
 
 .content {

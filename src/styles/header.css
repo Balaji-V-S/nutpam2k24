@@ -45,14 +45,14 @@
 
 /* Styles for the logo image in the top section */
 .top img {
-    height: 4rem;                   /* Responsive height */
+    height: 3rem;                   /* Responsive height */
     filter: drop-shadow(0px 0px 4px red);
 }
 
 /* Heading styles */
 .heading {
-    font-size: 18rem;
-    margin-top: 20px;
+    font-size: 15rem;
+    margin-top: 30px;
     font-family: got;
     color: white;
     text-shadow: 0px 0px 15px black;
@@ -90,7 +90,7 @@
 }
 
 .timer p {
-    font-size: 16px;
+    font-size: 30px;
     margin: 0;
     text-shadow: 0px 0px 15px black;
 }
@@ -130,6 +130,7 @@
 .register {
     background-color: #FDE46E;
     font-family: got;
+    font-size: 20px;
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 10px;
@@ -163,193 +164,102 @@
     bottom: 0;
     background: linear-gradient(to top, black, transparent);
 }
-
-/* Empty space at the bottom of the .bg container */
-.empty {
-    height: 80px;
-    background-color: transparent;
-}
-
 /* Responsive styles */
-@media (max-width: 2500px){
-    .heading {
-        font-size: 23rem;
-        margin-top: 100px;
-        margin-bottom: 20px;
-    }
-    .timer{
-        margin-bottom: 150px;
-    }
-    .timer p {
-        font-size: 50px;
-    }
-    .timer h1 {
-        font-size: 60px;
-    }
-    .technology div {
-        font-size: 50px;  
-    }
-    .jap-number div {
-        font-size: 45px;
-    }
-    .year {
-        font-size: 3.5rem;
-    }
-    .top img {
-        height: 4.5rem;
-    }
-    .register{
-        margin-left: 200px;
-        margin-right: 200px;
-    }
-    .register a{
-        font-size: 40px;
-    }
-}
+
 @media (max-width: 1250px) {
     .heading {
-        font-size: 17rem;
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-    .timer{
-        margin-bottom: 150px;
+        font-size: 13rem;
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
     .timer p {
-        font-size: 50px;
+        font-size: 35px;
     }
     .timer h1 {
-        font-size: 60px;
-    }
-    .technology div {
-        font-size: 50px;  
-    }
-    .jap-number div {
         font-size: 45px;
     }
+    .technology div {
+        font-size: 30px;  
+    }
+    .jap-number div {
+        font-size: 25px;
+    }
     .year {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .top img {
-        height: 3.5rem;
+        height: 3rem;
     }
     .register a{
-        font-size: 30px;
+        font-size: 18px;
     }
 }
 
 @media (max-width: 1190px) {
     .heading {
-        font-size: 15rem;
-        margin-top: 100px;
-        margin-bottom: 150px;
+        margin-top: 50px;
+        margin-bottom: 10px;
     }
     .timer p {
-        font-size: 50px;
+        font-size: 30px;
     }
     .timer h1 {
-        font-size: 60px;
-    }
-    .technology div {
-        font-size: 45px;  
-    }
-    .jap-number div {
         font-size: 40px;
     }
     .year {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
     .top img {
-        height: 3.5rem;
-    }
-    .register{
-        margin-left: 100px;
-        margin-right: 100px;
+        height: 2.5rem;
     }
 }
 
 @media (max-width: 990px) {
     .heading {
-        font-size: 13rem;
-        margin-bottom: 200px;
+        font-size: 11rem;
+        margin-bottom: 50px;
     }
     .timer p {
-        font-size: 40px;
-    }
-    .timer h1 {
-        font-size: 45px;
-    }
-    .technology div {
-        font-size: 40px;  
-    }
-    .jap-number div {
         font-size: 35px;
     }
-    .year {
-        font-size: 2rem;
+    .timer h1 {
+        font-size: 40px;
     }
-    .top img {
-        height: 3rem;
+    .technology div {
+        font-size: 30px;  
+    }
+    .jap-number div {
+        font-size: 25px;
     }
 }
 
 @media (max-width: 915px) {
-    .heading {
-        font-size: 10rem;
-    }
     .timer p {
-        font-size: 40px;
+        font-size: 30px;
     }
     .timer h1 {
-        font-size: 50px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    .technology div {
-        font-size: 40px;  
-    }
-    .jap-number div {
-        font-size: 35px;
-    }
-    .year {
-        font-size: 2.5rem;
-    }
-    .top img {
-        height: 3.5rem;
+        font-size: 40px;
     }
 }
 
 @media (max-width: 750px) {
     .heading {
-        font-size: 10rem;
-        margin-top: 200px;
-        margin-bottom: 200px;
+        font-size: 9rem;
+        margin-bottom: 100px;
     }
     .timer p {
-        font-size: 35px;
+        font-size: 25px;
     }
     .timer h1 {
-        font-size: 40px;
-    }
-    .technology div {
-        font-size: 35px;  
-    }
-    .jap-number div {
         font-size: 30px;
-    }
-    .year {
-        font-size: 2rem;
-    }
-    .top img {
-        height: 3rem;
     }
 }
 
 @media (max-width: 420px) {
     .heading {
-        font-size: 4rem;
-        margin-bottom: 150px;
-        margin-top: 150px;
+        font-size: 5.5rem;
+        margin-top: 120px;
+        margin-bottom: 80px;
     }
     .bg {
         background-image: url(../Assets/naruto_bg1_mob.png);
@@ -371,22 +281,26 @@
         font-size: 25px;
     }
     .register {
-        padding: 10px;
+        margin-left: 20px;
+        padding: 7px;
+        margin-right: 20px;
+    }
+    .register a{
+        font-size: 14px;
     }
     .technology div {
-        display: none;
+        font-size: 25px;
     }
     .jap-number div {
-        display: none;
+        font-size: 20px;
     }
     .year {
-        font-size: 0.8rem;
+        font-size: 1.5rem;
     }
     .top img {
-        height: 1.5rem;
+        height: 2rem;
     }
-    .empty {
-        height: 30px;
-        background-color: transparent;
-    }
+}
+@media (max-width:380px){
+
 }
