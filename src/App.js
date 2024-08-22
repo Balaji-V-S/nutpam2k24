@@ -1,20 +1,36 @@
+
+// import Sponsors from '../src/Components/sponsors';
+
+// function App() {
+  //   return (
+    //     <div className="App">
+    //       <Header/>
+    //       <About/>
+    //       <Know/>
+    //       <Footer/>
+    //       {/* <Time/>
+    //       <Sponsors/>
+//       <Footer/> */}
+//     </div>
+//   );
+// }
+
+// export default App;
+
 import './App.css';
-import Footer from '../src/Components/footer';
-import About from '../src/Components/about';
-import Header from '../src/Components/header';
-import Know from '../src/Components/know';
-import Sponsors from '../src/Components/sponsors';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Routes, Route } from 'react-router-dom'; 
+import Home from './Pages/homePg'
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <About/>
-      <Know/>
-      <Footer/>
-      {/* <Time/>
-      <Sponsors/>
-      <Footer/> */}
+    <div>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        {/* <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} /> */}
+      </Routes>
     </div>
   );
 }
