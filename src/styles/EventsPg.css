@@ -3,14 +3,13 @@
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('../Assets/eventPgBg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 100px;
     display: flex;
     flex-direction: column; /* Arrange items in a vertical column */
     align-items: center; /* Center items horizontally */
     justify-content: center; /* Center items vertically */
     height: 100vh; /* Full viewport height */
     text-align: center; /* Center text inside parent */
-    padding: 0 20px; /* Optional: Add some horizontal padding */
+    padding: 20px; /* Optional: Add some horizontal padding */
 }
 
 /* Glassmorphic effect for the text background */
