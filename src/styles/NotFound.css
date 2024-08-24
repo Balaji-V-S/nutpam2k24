@@ -1,0 +1,125 @@
+body.no-scroll {
+    overflow: hidden;
+  }
+  
+  
+  .not-found-container {
+    padding-top: 18%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url('../Assets/404bg.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    position: relative; /* Ensure positioning context for the marquee */
+  }
+  
+  .not-found-content {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .top {
+    position: fixed;                /* Fix the position to the top-left corner */
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 10px;                  /* Adjust padding as needed */
+    background-color: transparent;
+    align-items: center;            /* Align items vertically in the center */
+    z-index: 1000;                  /* Ensure it stays on top of other content */
+}
+
+/* Styles for the year element */
+.year {
+    font-weight: bold;
+    font-size: 2rem;                /* Responsive font size */
+    margin-left: 10px;
+    font-family: got;
+    color: red;
+    text-shadow: 0px 0px 3px red;
+    background-color: transparent;
+}
+
+/* Styles for the logo image in the top section */
+.top img {
+    height: 3rem;                   /* Responsive height */
+    filter: drop-shadow(0px 0px 4px red);
+}
+
+  .error-code {
+    font-size: 10rem;
+    font-weight: bold;
+    animation: bounce 1s infinite;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  }
+  
+  .error-message {
+    font-size: 2rem;
+    margin-top: 1rem;
+    animation: fadeIn 2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  }
+  
+  .return-home-button {
+    margin-top: 2rem; /* Space between text and button */
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007bff; /* Adjust color to fit theme */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .return-home-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .marquee-text {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    white-space: nowrap;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 2rem;
+    font-weight: bold;
+    transform: rotate(-45deg); /* Rotate text to create diagonal effect */
+    animation: marqueeDiagonal 10s linear infinite;
+  }
+  
+  @keyframes marqueeDiagonal {
+    0% {
+      transform: translate(-100%, -100%) rotate(-45deg); /* Start position off-screen */
+    }
+    100% {
+      transform: translate(100vw, 100vh) rotate(-45deg); /* End position off-screen */
+    }
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
