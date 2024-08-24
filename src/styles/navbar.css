@@ -1,0 +1,64 @@
+.top-nav{
+    display: flex;
+    z-index:1000;
+    width: 100%;
+    justify-content: center;
+    background: linear-gradient(135deg,rgba(255, 255, 255, 0.2),rgba(255,255,255,0.2));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0, 0.37);
+}
+.logo-year{
+    display: flex;
+    margin: 10px;
+    margin-left: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.logo-year img {
+    height: 3rem;                  
+    filter: drop-shadow(0px 0px 4px red);
+}
+.year-2k24 {
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: red;
+    text-shadow: 0px 0px 3px red;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    width: 70%;
+}
+.nav li{
+    list-style: none;
+}
+.nav li a{
+    text-decoration: none;
+    color: #b0b0b0;
+    font-size: 1.5rem;
+    filter: drop-shadow(0px 0px 4px black);
+}
+
+.nav li a:after{
+    content: "";
+    position: absolute;
+    background: red;
+    height: 3px;
+    width:0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+.nav li a:hover{
+    color: white;
+}
+.nav li a:hover:after{
+    width: 100%;
+}
