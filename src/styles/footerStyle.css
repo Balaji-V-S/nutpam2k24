@@ -75,6 +75,30 @@
   font-size: 16px;
 }
 
+/* Footer bottom section */
+.footer-bottom {
+  font-family: got;
+  text-align: center;
+  padding: 10px;
+  background-color: #000000; /* Dark background to match footer */
+  color: #fff; /* White text for contrast */
+}
+
+.footer-divider {
+  border: none;
+  border-top: 2px solid #fff; /* White horizontal ruler */
+  margin: 20px 0;
+}
+
+.footer-text {
+  font-size: 1rem;
+  font-family: got; /* Matching font */
+}
+
+.footer-text span {
+  font-size: 1.2rem;
+}
+
 @media (max-width: 1024px) {
   .footer-bg {
     flex-direction: row;
@@ -87,7 +111,6 @@
   }
 
   .contact {
-    margin-right: 0;
     margin-top: 20px;
     justify-content: flex-start;
   }
@@ -122,14 +145,51 @@
 
 @media (max-width: 480px) {
   .sai-footer, .mail-logo {
-    padding: 5%;
-    width: 25%;
     display: flex;
     align-items: center;
     }
+  
+  .footer-bg{
+    padding: 0px;
+  }
 
   .contact img {
     width: 20px; 
+  }
+
+  .clg{
+    display: flex;
+    padding: 5px;
+  }
+  .mail {
+    display: flex;
+    padding: 5px;
+  }
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+  }
+  .contact a{
+    margin-right: 50px;
+  }
+  .coordinators-det{
+    display: flex;
+  }
+  .co-staff{
+    margin-right: 10px;
+  }
+  .co-heading{
+    font-size: 14px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  .co-name {
+    color: gray;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 12px;
   }
 
   .map-container iframe {

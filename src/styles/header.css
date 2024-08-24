@@ -5,16 +5,15 @@
     box-sizing: border-box;
 }
 
-/* Background styles for the main container */
+/* Background styles for the main container with gradient */
 .bg {
-    background-image: url(../Assets/naruto_bg1.png);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.352), rgba(0, 0, 0, 0.21)),
+                      url(../Assets/naruto_bg1.png);
     background-size: cover;         /* Ensures the image covers the entire element */
     background-position: center;    /* Centers the image */
     background-repeat: no-repeat;   /* Prevents the image from repeating */
-    background-color: transparent;   
     height: 100vh;                  /* Ensures the background covers the full viewport height */
     width: 100%;                    /* Ensures the background covers the full width */
-    box-shadow: 0px 100px 250px black inset; /* Optional: Adds an inset shadow */
     display: flex;
     flex-direction: column;
     align-items: center;            /* Centers content horizontally */
@@ -46,13 +45,14 @@
 
 /* Styles for the logo image in the top section */
 .top img {
-    height: 4rem;                   /* Responsive height */
+    height: 3rem;                   /* Responsive height */
     filter: drop-shadow(0px 0px 4px red);
 }
 
 /* Heading styles */
 .heading {
-    font-size: 18rem;
+    font-size: 15rem;
+    margin-top: 30px;
     font-family: got;
     color: white;
     text-shadow: 0px 0px 15px black;
@@ -65,6 +65,7 @@
 .timer {
     position: absolute;              /* Absolute positioning to place it at the bottom */
     bottom: 0;
+    margin-bottom: 50px;
     width: 100%;
     background-color: transparent;
     display: flex;
@@ -78,7 +79,9 @@
     display: flex;
     flex-direction: column;          /* Align time unit and label vertically */
     align-items: center;
-    margin: 0 10px;                  /* Spacing between time units */
+    margin: 0 10px;               /* Spacing between time units */
+    color: white;
+    text-shadow: 0px 0px 10px black;
 }
 
 .timer h1 {
@@ -88,7 +91,7 @@
 }
 
 .timer p {
-    font-size: 16px;
+    font-size: 30px;
     margin: 0;
     text-shadow: 0px 0px 15px black;
 }
@@ -96,7 +99,6 @@
 /* Styles for jap-text container */
 .jap-text {
     display: flex;
-    margin-top: 2%;
     justify-content: center;
     align-items: center;
     background-color: transparent;
@@ -129,6 +131,7 @@
 .register {
     background-color: #FDE46E;
     font-family: got;
+    font-size: 20px;
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 10px;
@@ -143,143 +146,124 @@
     text-decoration: none;
 }
 
-/* Empty space at the bottom of the .bg container */
-.empty {
-    height: 80px;
-    background-color: transparent;
+/* Black gradient at the top and bottom */
+.bg:before, .bg:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    left: 0;
+    z-index: 999;
 }
 
+.bg:before {
+    top: 0;
+    background: linear-gradient(to bottom, black, transparent);
+}
+
+.bg:after {
+    bottom: 0;
+    background: linear-gradient(to top, black, transparent);
+}
 /* Responsive styles */
+
+
+@media (max-width: 1250px) {
+
+    .heading {
+        font-size: 13rem;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .timer p {
+        font-size: 35px;
+    }
+    .timer h1 {
+        font-size: 45px;
+    }
+    .technology div {
+        font-size: 30px;  
+    }
+    .jap-number div {
+        font-size: 25px;
+    }
+    .year {
+        font-size: 2rem;
+    }
+    .top img {
+        height: 3rem;
+    }
+    .register a{
+        font-size: 18px;
+    }
+}
 
 
 @media (max-width: 1190px) {
     .heading {
-        font-size: 11rem;
+        margin-top: 50px;
+        margin-bottom: 10px;
     }
     .timer p {
         font-size: 30px;
     }
     .timer h1 {
-        font-size: 20px;
-    }
-    .technology div {
-        font-size: 30px;  
-    }
-    .jap-number div {
-        font-size: 25px;
+        font-size: 40px;
     }
     .year {
         font-size: 1.5rem;
-    }
-    .top img {
-        height: 3rem;
-    }
-}
-
-@media (max-width: 1250px) {
-    .heading {
-        font-size: 15rem;
-    }
-    .timer p {
-        font-size: 30px;
-    }
-    .timer h1 {
-        font-size: 20px;
-    }
-    .technology div {
-        font-size: 30px;  
-    }
-    .jap-number div {
-        font-size: 25px;
-    }
-    .year {
-        font-size: 1.5rem;
-    }
-    .top img {
-        height: 3rem;
-    }
-}
-
-
-@media (max-width: 990px) {
-    .heading {
-        font-size: 9rem;
-    }
-    .timer p {
-        font-size: 25px;
-    }
-    .timer h1 {
-        font-size: 30px;
-    }
-    .technology div {
-        font-size: 25px;  
-    }
-    .jap-number div {
-        font-size: 20px;
-    }
-    .year {
-        font-size: 1.2rem;
     }
     .top img {
         height: 2.5rem;
     }
 }
 
-@media (max-width: 915px) {
+@media (max-width: 990px) {
     .heading {
-        font-size: 7rem;
+        font-size: 11rem;
+        margin-bottom: 50px;
     }
     .timer p {
-        font-size: 20px;
+        font-size: 35px;
     }
     .timer h1 {
-        font-size: 25px;
-        margin-left: 5px;
-        margin-right: 5px;
+        font-size: 40px;
     }
     .technology div {
-        font-size: 20px;  
+        font-size: 30px;  
     }
     .jap-number div {
-        font-size: 15px;
+        font-size: 25px;
     }
-    .year {
-        font-size: 1rem;
+}
+
+@media (max-width: 915px) {
+    .timer p {
+        font-size: 30px;
     }
-    .top img {
-        height: 2rem;
+    .timer h1 {
+        font-size: 40px;
     }
 }
 
 @media (max-width: 750px) {
     .heading {
-        font-size: 5rem;
+        font-size: 9rem;
+        margin-bottom: 100px;
     }
     .timer p {
-        font-size: 15px;
+        font-size: 25px;
     }
     .timer h1 {
-        font-size: 20px;
-    }
-    .technology div {
-        font-size: 15px;  
-    }
-    .jap-number div {
-        font-size: 10px;
-    }
-    .year {
-        font-size: 0.8rem;
-    }
-    .top img {
-        height: 1.5rem;
+        font-size: 30px;
     }
 }
 
 @media (max-width: 420px) {
     .heading {
-        font-size: 4rem;
-        margin-bottom: 200px;
-        margin-top: 50px;
+        font-size: 5.5rem;
+        margin-top: 120px;
+        margin-bottom: 80px;
     }
     .bg {
         background-image: url(../Assets/naruto_bg1_mob.png);
@@ -289,6 +273,7 @@
         position: absolute;
         bottom: 0;
         left: 0;
+        margin-bottom: 100px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -300,22 +285,26 @@
         font-size: 25px;
     }
     .register {
-        padding: 10px;
+        margin-left: 20px;
+        padding: 7px;
+        margin-right: 20px;
+    }
+    .register a{
+        font-size: 14px;
     }
     .technology div {
-        display: none;
+        font-size: 25px;
     }
     .jap-number div {
-        display: none;
+        font-size: 20px;
     }
     .year {
-        font-size: 0.8rem;
+        font-size: 1.5rem;
     }
     .top img {
-        height: 1.5rem;
+        height: 2rem;
     }
-    .empty {
-        height: 30px;
-        background-color: transparent;
-    }
+}
+@media (max-width:380px){
+
 }
