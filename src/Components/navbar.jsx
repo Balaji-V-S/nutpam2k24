@@ -23,6 +23,11 @@ const navbar = () => {
                 <a href="">CONTACT</a>
             </li>
         </div>
+        <div className="menu-icon">
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
+        </div>
     </div>
   )
 }
