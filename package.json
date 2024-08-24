@@ -10,6 +10,8 @@
     "nodemon": "^3.1.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-pageflip": "^2.0.3",
+    "react-pdf": "^9.1.0",
     "react-router-dom": "^6.26.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
@@ -39,6 +41,11 @@
     ]
   },
   "devDependencies": {
-    "react-router-dom": "^6.26.1"
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "react-router-dom": "^6.26.1",
+    "tailwindcss": "^3.4.10",
+    "react-pageflip": "^2.0.3",
+    "react-pdf": "^9.1.0"
   }
 }

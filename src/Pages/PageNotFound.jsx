@@ -2,9 +2,17 @@ import React from 'react';
 import '../styles/NotFound.css'; // Import the CSS for styling and animation
 import logo from '../Assets/logo.png'
 import Footer from '../Components/footer'
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
+
 
 
 const NotFound = () => {
+  const navigate = useNavigate(); // Initialize useNavigate
+
+  const handleReturnHome = () => {
+    navigate('/'); // Navigate to the home page
+  };
+
   return (
     <>
     <div className="not-found-container">
@@ -17,7 +25,7 @@ const NotFound = () => {
         <div className="error-message">Page Not Found</div>
       </div>
       <div></div>
-      <button className="return-home-button" >   
+      <button className="return-home-button" onClick={handleReturnHome} >   
         Return to Home
       </button>
       {/* <div className="marquee-text">
