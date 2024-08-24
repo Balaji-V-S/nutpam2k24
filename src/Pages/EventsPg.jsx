@@ -15,7 +15,12 @@ function EventPg(props) {
               <p>Go register 👇</p>
             </div>
             <div className="register-btn">
-              <button className="bg-red-500 text-white px-4 py-2 rounded">
+              <button
+                className="bg-red-500 text-white px-4 py-2 rounded"
+                onClick={() =>
+                  window.open("https://forms.gle/6YfPugs214DG3je87", "_blank")
+                }
+              >
                 Register Now!
               </button>
             </div>
