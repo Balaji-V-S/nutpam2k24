@@ -1,8 +1,26 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import React from 'react'
+import {useState} from 'react'
+import { Link } from "react-router-dom";
 import logo from '../Assets/logo.png'
 import '../styles/navbar.css'
 
 const navbar = () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const [burger_class,setBurgerClass] = useState("burger-bar unclicked")
+  const [menu_class,setMenuClass] = useState('menu hidden')
+  const [isMenuClicked, setIsMenuClicked] = useState(false)
+  const updateMenu=()=>{
+    if(isMenuClicked){
+      setBurgerClass("burger-bar unclicked")
+      setMenuClass('menu hidden')
+    }
+    else{
+      setBurgerClass("burger-bar clicked")
+      setMenuClass('menu visible')
+    }
+    setIsMenuClicked(!isMenuClicked)
+  }
   return (
     <div className='top-nav'>
         <div className="logo-year">
@@ -11,22 +29,39 @@ const navbar = () => {
         </div>
         <div className="nav">
             <li>
-                <a href="">HOME</a>
+                <Link to="/">HOME</Link>
             </li>
             <li>
-                <a href="">EVENTS</a>
+              <Link to="/events">EVENTS</Link>
             </li>
             <li>
-                <a href="">TEAM</a>
+                <Link to="/team">TEAM</Link>
             </li>
             <li>
-                <a href="">CONTACT</a>
+                <Link to="/contact">CONTACT</Link>
             </li>
+            
         </div>
-        <div className="menu-icon">
-          <div className="line"></div>
-          <div className="line"></div>
-          <div className="line"></div>
+        <div className="burger-menu" onClick={updateMenu}>
+          <div className={burger_class}></div>
+          <div className={burger_class}></div>
+          <div className={burger_class}></div>
+        </div>
+        <div className={menu_class}>
+          <div>
+              <li>
+                  <Link to="/">HOME</Link>
+              </li>
+              <li>
+                  <Link to="/events">EVENTS</Link>
+              </li>
+              <li>
+                  <Link to="/team">TEAM</Link>
+              </li>
+              <li>
+                  <Link to="/contact">CONTACT</Link>
+              </li>
+          </div>
         </div>
     </div>
   )

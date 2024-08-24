@@ -1,0 +1,64 @@
+/* Container for the entire page */
+.parent-root {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('../Assets/eventPgBg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column; /* Arrange items in a vertical column */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full viewport height */
+    text-align: center; /* Center text inside parent */
+    padding: 20px; /* Optional: Add some horizontal padding */
+}
+
+/* Glassmorphic effect for the text background */
+.text-bg {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border-radius: 12px; /* Rounded corners */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    padding: 20px; /* Add some padding inside the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    margin-top: 10px; /* Add spacing above the text background */
+    width: 100%;
+    margin-bottom: 20px;
+    max-width: 500px; /* Optional: Limit the width */
+}
+
+/* Container for the registration section */
+.registration-ribbon {
+    margin-top: 20px; /* Add space above registration section */
+}
+
+/* Styling for the text in the registration section */
+.register-text p {
+    margin: 0; /* Remove default margin for p elements */
+    font-size: 1.5rem; /* Adjust text size */
+    color: white; /* White text color */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8); /* Darker and more prominent shadow */
+}
+
+/* Container for the button */
+.register-btn {
+    margin-top: 10px; /* Add space above button */
+}
+
+/* Button styling */
+.register-btn button {
+    background-color: #f34242; /* Red background */
+    color: white; /* White text color */
+    padding: 0.5rem 1rem; /* Vertical and horizontal padding */
+    border-radius: 0.25rem; /* Rounded corners */
+    border: none; /* Remove default button border */
+    font-size: 1rem; /* Adjust text size */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Darker and more prominent shadow */
+}
+
+/* Button hover effect */
+.register-btn button:hover {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    background-color: #e53e3e; /* Darker red on hover */
+}

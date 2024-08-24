@@ -1,8 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React,{useRef,useState} from 'react'
-import logo from '../Assets/logo.png'
 import Navbar from './navbar'
-// import naruto from '../Assets/naruto.png'
 import '../styles/header.css'
 
 //header
@@ -42,24 +40,20 @@ const Header = () => {
         <div className='bg'>
           <Navbar/>
           <div className="heading">NUTPAM</div>
-          {/* <img src={naruto} className='naruto' alt="" /> */}
-          {/* <div className="navbar">
-            <ul>
-              <li className='nav1'><a href="#time">EVENTS</a></li>
-              <li className='nav2'><a href="#about">TEAM</a></li>
-              <li className='nav3'><a href="#footer">CONTACT</a></li>
-            </ul>
-          </div> */}
-          
           <div className="jap-text">
                 <div className="technology">
                   <div>技</div>
                   <div >術</div>
                 </div>
                 
-                <div className="register">
-                    <a href="https://forms.gle/6YfPugs214DG3je87">REGISTER</a>
-                </div>
+                <button
+                  className="register"
+                  onClick={() =>
+                    window.open("https://forms.gle/6YfPugs214DG3je87", "_blank")
+                  }
+                >
+                  Register Now!
+                </button>
                 <div className="jap-number">
                     <div>二</div>
                     <div>千</div>

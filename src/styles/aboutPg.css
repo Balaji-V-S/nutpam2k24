@@ -54,7 +54,6 @@
 
 .logo-holder img {
   width: 200px; /* Adjust size as needed */
-  height: auto;
   transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for scaling and highlighting */
 }
 
@@ -65,10 +64,12 @@
 
 .content {
   max-width: 1000px; /* Adjust width as needed */
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1.5;
 }
-
+.content span{
+  color:red;
+}
 /* Responsive Styles */
 @media (max-width: 768px) {
   .content-wrapper {
