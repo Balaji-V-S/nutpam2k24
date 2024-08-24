@@ -20,79 +20,12 @@
     position: relative;             /* Position relative for the timer positioning */
 }
 
-/* Fixed position for the top section */
-.top {
-    position: fixed;                /* Fix the position to the top-left corner */
-    top: 0;
-    left: 0;
-    display: flex;
-    padding: 10px;                  /* Adjust padding as needed */
-    background-color: transparent;
-    align-items: center;            /* Align items vertically in the center */
-    z-index: 1000;                  /* Ensure it stays on top of other content */
-}
-
-/* Styles for the year element */
-.year {
-    font-weight: bold;
-    font-size: 2rem;                /* Responsive font size */
-    margin-left: 10px;
-    font-family: got;
-    color: red;
-    text-shadow: 0px 0px 3px red;
-    background-color: transparent;
-}
-
-/* Styles for the logo image in the top section */
-.top img {
-    height: 3rem;                   /* Responsive height */
-    filter: drop-shadow(0px 0px 4px red);
-}
-
 /* Heading styles */
 .heading {
     font-size: 15rem;
-    margin-top: 30px;
-    font-family: got;
     color: white;
     text-shadow: 0px 0px 15px black;
     background-color: transparent;
-    /* margin-top: 10%;               Add margin to make space for fixed top section */
-}
-
-/* Styles for the timer container */
-.timer {
-    position: absolute;              /* Absolute positioning to place it at the bottom */
-    bottom: 0;
-    margin-bottom: 50px;
-    width: 100%;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;        /* Center the timer horizontally */
-    padding: 20px 0;                /* Optional padding */
-}
-
-/* Timer styles for each time unit */
-.timer .time {
-    font-family: got;
-    display: flex;
-    flex-direction: column;          /* Align time unit and label vertically */
-    align-items: center;
-    margin: 0 10px;               /* Spacing between time units */
-    color: white;
-    text-shadow: 0px 0px 10px black;
-}
-
-.timer h1 {
-    font-size: 40px;
-    margin: 0;
-    text-shadow: 0px 0px 15px black;
-}
-
-.timer p {
-    font-size: 30px;
-    margin: 0;
-    text-shadow: 0px 0px 15px black;
 }
 
 /* Styles for jap-text container */
@@ -143,6 +76,40 @@
     color: black;
     background-color: transparent;
     text-decoration: none;
+}
+/* Styles for the timer container */
+.timer {
+    position: absolute;              /* Absolute positioning to place it at the bottom */
+    bottom: 0;
+    margin-bottom: 50px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;        /* Center the timer horizontally */
+    padding: 20px 0;                /* Optional padding */
+}
+
+/* Timer styles for each time unit */
+.timer .time {
+    font-family: got;
+    display: flex;
+    flex-direction: column;          /* Align time unit and label vertically */
+    align-items: center;
+    margin: 0 10px;               /* Spacing between time units */
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+
+.timer h1 {
+    font-size: 40px;
+    margin: 0;
+    text-shadow: 0px 0px 15px black;
+}
+
+.timer p {
+    font-size: 30px;
+    margin: 0;
+    text-shadow: 0px 0px 15px black;
 }
 
 /* Black gradient at the top and bottom */

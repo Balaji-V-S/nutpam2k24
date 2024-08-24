@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React,{useRef,useState} from 'react'
 import logo from '../Assets/logo.png'
+import Navbar from './navbar'
 // import naruto from '../Assets/naruto.png'
 import '../styles/header.css'
 
@@ -39,10 +40,7 @@ const Header = () => {
   return (
     <>
         <div className='bg'>
-          <div className="top">
-            <img src={logo} alt="Nutpam Logo of Dragon"/>
-            <h2 className="year">2 K 2 4</h2>
-          </div>
+          <Navbar/>
           <div className="heading">NUTPAM</div>
           {/* <img src={naruto} className='naruto' alt="" /> */}
           {/* <div className="navbar">
