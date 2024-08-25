@@ -2,6 +2,8 @@ import React from 'react';
 import '../styles/NotFound.css'; // Import the CSS for styling and animation
 import logo from '../Assets/logo.png'
 import Footer from '../Components/footer'
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
+
 
 import { Link } from "react-router-dom";
 
@@ -18,9 +20,10 @@ const NotFound = () => {
         <div className="error-message">Page Not Found</div>
       </div>
       <div></div>
-      <Link to="/"><button className="return-home-button" >   
+      <Link to="/"> <button className="return-home-button" >   
         Return to Home
-      </button></Link>
+      </button>
+      </Link>
       {/* <div className="marquee-text">
         <span>404 エラー - ページが見つかりません</span> {/* Replace with your desired Japanese text 
       </div>*/}

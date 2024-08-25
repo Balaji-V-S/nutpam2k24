@@ -33,6 +33,7 @@ const navbar = () => {
             </li>
             <li>
               <Link to="/events">EVENTS</Link>
+
             </li>
             <li>
                 <Link to="/team">TEAM</Link>
