@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import '../styles/buttongrp.css';
-import ButtonGroup from '@mui/material/ButtonGroup';
-import Button from '@mui/material/Button';
 
 const EventButton = () => {
     const [selected, setSelected] = useState('Technical');
@@ -15,9 +13,7 @@ const EventButton = () => {
             <button
                 className={`button ${selected === 'Technical' ? 'selected' : ''}`}
                 onClick={() => handleClick('Technical')}
-            >
-            Technical
-            </button>
+            >Technical</button>
             <button
                 className={`button ${selected === 'Non-Technical' ? 'selected' : ''}`}
                 onClick={() => handleClick('Non-Technical')}
