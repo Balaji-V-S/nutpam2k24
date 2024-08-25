@@ -6,7 +6,7 @@ export const TeamService = {
                 name: 'Sreedevi',
                 role: 'HOD/CSE',
                 team: 'Core',
-                image: 'Sreedevi'
+                image: 'src/Assets/img/Team/Sreedevi.jpg'
             },
             {
                 id: '2',
@@ -73,17 +73,17 @@ export const TeamService = {
             },
             {
                 id: '2',
-                name: 'Abilash M',
-                role: 'Web Developer',
-                team: 'Web Developer',
-                image: 'jane_smith.jpg'
-            },
-            {
-                id: '3',
                 name: 'Balaji V S',
                 role: 'Web Developer',
                 team: 'Web Developer',
                 image: 'alice_johnson.jpg'
+            },
+            {
+                id: '3',
+                name: 'Abilash M',
+                role: 'Web Developer',
+                team: 'Web Developer',
+                image: 'jane_smith.jpg'
             },
             {
                 id: '4',

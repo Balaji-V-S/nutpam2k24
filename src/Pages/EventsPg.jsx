@@ -7,8 +7,8 @@ import Footer from "../Components/footer";
 function EventPg(props) {
   return (
     <>
-      <div className="parent-root">
       <Navbar/>
+      <div className="parent-root">
       <FlipBook />
       <div className="text-bg">
         <div className="registration-ribbon">

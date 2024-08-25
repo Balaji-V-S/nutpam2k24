@@ -40,8 +40,8 @@ const TeamCarousel = ({ teamName }) => {
             <div className="member-card">
                 <div className="member-info">
                     <div className="member-image-container">
-                        <img
-                            src="../Assets/img/Team/Sreedevi/jpg"
+                        <img 
+                            src={member.image}
                             alt={member.name} 
                             className="member-image" 
                         />
