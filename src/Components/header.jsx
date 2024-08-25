@@ -1,7 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React,{useRef,useState} from 'react'
 import Navbar from './navbar';
-import Navbar from "./navbar";
 import "../styles/header.css";
 
 //header
