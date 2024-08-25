@@ -66,7 +66,7 @@ const navbar = () => {
                   <Link to="/team">TEAM</Link>
               </li>
               <li>
-                  <Link to="/#footer">CONTACT</Link>
+                  <Link to="/#footer" onClick={handleScrollToFooter}>CONTACT</Link>
               </li>
           </div>
         </div>

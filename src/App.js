@@ -5,7 +5,6 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/HomePg';
 import Events from './Pages/EventsPg';
 import Team from './Components/team';
-import Footer from './Components/footer';
 import NotFound from './Pages/PageNotFound';
 import Preloader from './Components/Preloader';
 

@@ -73,8 +73,22 @@ export default function CircularDemo() {
             <TeamCarousel teamName="Video Editing" />
             <TeamCarousel teamName="Social Media" />
             <TeamCarousel teamName="Overall Event Coordinator" />
-            <TeamCarousel teamName="Technical" />
-            <TeamCarousel teamName="Non-Technical" />
+            <TeamCarousel teamName="QUIRK CLASH: PRO VS FOE" />
+            <TeamCarousel teamName="Dungeon Tech Quiz" />
+            <TeamCarousel teamName="Zanpakuto capture" />
+            <TeamCarousel teamName="Pitch With Power" />
+            <TeamCarousel teamName="Pirate’s Idea Quest" />
+            <TeamCarousel teamName="Shinobi's Design Quest" />
+            <TeamCarousel teamName="Stone Age Relay" />
+            <TeamCarousel teamName="Shadow Code" />
+            <TeamCarousel teamName="Sharingan Pixels" />
+            <TeamCarousel teamName="Tokyo Bid Showdown" />
+            <TeamCarousel teamName="Titan Tactics" />
+            <TeamCarousel teamName="Slayer Snapshot" />
+            <TeamCarousel teamName="Shibuya Survival Clash" />
+            <TeamCarousel teamName="Lelouch's Cinematica" />
+            <TeamCarousel teamName="Forger's Mission" />
+            <TeamCarousel teamName="Ginwars: Ad Rumble" />
         </div>
     );
 }
