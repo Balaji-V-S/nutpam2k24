@@ -1,15 +1,39 @@
+import React, { useState } from "react";
 import "../styles/EventsPg.css";
 import Navbar from "../Components/navbar";
-import EventButton from "../Assets/EventSwitch";
 import FlipBook from "../Components/FlipBook";
 import Footer from "../Components/footer";
 
 function EventPg(props) {
+  const [selectedCategory, setSelectedCategory] = useState("technical");
+
+  const handleCategoryChange = (category) => {
+    setSelectedCategory(category);
+  };
+
   return (
     <>
+      <Navbar />
       <div className="parent-root">
-        <EventButton />
-        <FlipBook />
+        <div className="category-buttons">
+          <button
+            className={`category-btn ${selectedCategory === "technical" ? "active" : ""}`}
+            onClick={() => handleCategoryChange("technical")}
+          >
+            Technical
+          </button>
+          <button
+            className={`category-btn ${selectedCategory === "non-technical" ? "active" : ""}`}
+            onClick={() => handleCategoryChange("non-technical")}
+          >
+            Non-Technical
+          </button>
+        </div>
+        {selectedCategory === "technical" ? (
+          <FlipBook category="technical" />
+        ) : (
+          <FlipBook category="non-technical" />
+        )}
         <div className="text-bg">
           <div className="registration-ribbon">
             <div className="register-text">
