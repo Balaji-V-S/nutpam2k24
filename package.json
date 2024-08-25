@@ -8,6 +8,9 @@
     "@testing-library/user-event": "^13.5.0",
     "mdb-react-ui-kit": "^8.0.0",
     "nodemon": "^3.1.4",
+    "primeflex": "^3.3.1",
+    "primeicons": "^7.0.0",
+    "primereact": "^10.8.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-pageflip": "^2.0.3",
@@ -43,9 +46,9 @@
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.41",
-    "react-router-dom": "^6.26.1",
-    "tailwindcss": "^3.4.10",
     "react-pageflip": "^2.0.3",
-    "react-pdf": "^9.1.0"
+    "react-pdf": "^9.1.0",
+    "react-router-dom": "^6.26.1",
+    "tailwindcss": "^3.4.10"
   }
 }

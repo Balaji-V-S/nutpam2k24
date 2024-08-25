@@ -4,6 +4,8 @@ import { Route, Routes } from 'react-router-dom';
 /* Page Imports */
 import Home from './Pages/HomePg';
 import Events from './Pages/EventsPg';
+import Team from './Components/team';
+import Footer from './Components/footer';
 import NotFound from './Pages/PageNotFound';
 import Preloader from './Components/Preloader';
 
@@ -25,6 +27,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} /> 
+          <Route path="/team" element={<Team />} />
+          <Route path="/Home/#footer" element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       )}

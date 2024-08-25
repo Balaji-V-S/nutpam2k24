@@ -10,7 +10,7 @@ import "../styles/footerStyle.css";
 const footer = () => {
   return (
     <>
-    <div className="footer-bg">
+    <div className="footer-bg" id="footer">
       <div className="clg-det">
         <div className="clg">
           <img src={logofooter} className="sai-footer" alt="College Logo" />
