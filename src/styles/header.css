@@ -23,17 +23,15 @@
 /* Heading styles */
 .heading {
     font-size: 15rem;
+    margin-top: 50px;
     color: white;
     text-shadow: 0px 0px 15px black;
-    background-color: transparent;
 }
 
 /* Styles for jap-text container */
 .jap-text {
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: transparent;
 }
 
 /* Technology section styles */
@@ -70,6 +68,7 @@
     border-radius: 10px;
     border: rgb(72, 70, 70) 2px solid;
     padding: 10px;
+    cursor: pointer;
 }
 
 /* Register link styles */
@@ -77,14 +76,12 @@
     color: black;
     background-color: transparent;
     text-decoration: none;
-}
-/* Styles for the timer container */
+}/* Styles for the timer container */
 .timer {
     position: absolute;              /* Absolute positioning to place it at the bottom */
     bottom: 0;
     margin-bottom: 50px;
     width: 100%;
-    background-color: transparent;
     display: flex;
     justify-content: center;        /* Center the timer horizontally */
     padding: 20px 0;                /* Optional padding */
@@ -137,36 +134,7 @@
 @media (max-width: 1250px) {
     .heading {
         font-size: 13rem;
-        margin-top: 50px;
-        margin-bottom: 20px;
-    }
-    .timer p {
-        font-size: 35px;
-    }
-    .timer h1 {
-        font-size: 45px;
-    }
-    .technology div {
-        font-size: 30px;  
-    }
-    .jap-number div {
-        font-size: 25px;
-    }
-    .year {
-        font-size: 2rem;
-    }
-    .top img {
-        height: 3rem;
-    }
-    .register a{
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 1190px) {
-    .heading {
-        margin-top: 50px;
-        margin-bottom: 10px;
+        margin-top: 80px;
     }
     .timer p {
         font-size: 30px;
@@ -174,11 +142,26 @@
     .timer h1 {
         font-size: 40px;
     }
-    .year {
-        font-size: 1.5rem;
+    .technology div {
+        font-size: 30px;  
     }
-    .top img {
-        height: 2.5rem;
+    .jap-number div {
+        font-size: 25px;
+    }
+    .register a{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1190px) {
+    .heading{
+        margin-top: 80px;
+    }
+    .timer p {
+        font-size: 20px;
+    }
+    .timer h1 {
+        font-size: 40px;
     }
 }
 
@@ -187,12 +170,6 @@
         font-size: 11rem;
         margin-bottom: 50px;
     }
-    .timer p {
-        font-size: 35px;
-    }
-    .timer h1 {
-        font-size: 40px;
-    }
     .technology div {
         font-size: 30px;  
     }
@@ -200,16 +177,11 @@
         font-size: 25px;
     }
 }
-
-@media (max-width: 915px) {
-    .timer p {
-        font-size: 30px;
-    }
-    .timer h1 {
-        font-size: 40px;
+@media (max-width:850px){
+    .heading{
+        margin-top: 50px;
     }
 }
-
 @media (max-width: 750px) {
     .heading {
         font-size: 9rem;
@@ -222,7 +194,26 @@
         font-size: 30px;
     }
 }
-
+@media (max-width:600px){
+    .heading{
+        font-size: 8.5rem;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width:530px) {
+    .heading{
+        font-size: 7.5rem;
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }    
+}
+@media (max-width:470px){
+    .heading{
+        font-size: 6.5rem;
+        margin-top: 100px;
+    }
+}
 @media (max-width: 420px) {
     .heading {
         font-size: 5.5rem;
@@ -262,13 +253,4 @@
     .jap-number div {
         font-size: 20px;
     }
-    .year {
-        font-size: 1.5rem;
-    }
-    .top img {
-        height: 2rem;
-    }
-}
-@media (max-width:380px){
-
 }

@@ -5,14 +5,9 @@ import Footer from '../Components/footer'
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 
+import { Link } from "react-router-dom";
 
 const NotFound = () => {
-  const navigate = useNavigate(); // Initialize useNavigate
-
-  const handleReturnHome = () => {
-    navigate('/'); // Navigate to the home page
-  };
-
   return (
     <>
     <div className="not-found-container">
@@ -25,9 +20,10 @@ const NotFound = () => {
         <div className="error-message">Page Not Found</div>
       </div>
       <div></div>
-      <button className="return-home-button" onClick={handleReturnHome} >   
+      <Link to="/"> <button className="return-home-button" >   
         Return to Home
       </button>
+      </Link>
       {/* <div className="marquee-text">
         <span>404 エラー - ページが見つかりません</span> {/* Replace with your desired Japanese text 
       </div>*/}
