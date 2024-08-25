@@ -28,7 +28,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} /> 
           <Route path="/team" element={<Team />} />
-          <Route path="/Home/#footer" element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       )}

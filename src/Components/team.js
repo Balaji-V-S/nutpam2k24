@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from 'primereact/button';
 import { Carousel } from 'primereact/carousel';
 import { TeamService } from './TeamService'; // Assuming you saved the team service here
 import '../styles/team.css';

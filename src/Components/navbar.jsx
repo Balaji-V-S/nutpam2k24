@@ -21,6 +21,12 @@ const navbar = () => {
     }
     setIsMenuClicked(!isMenuClicked)
   }
+  const handleScrollToFooter = () => {
+    const footerElement = document.getElementById('footer');
+    if (footerElement) {
+      footerElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <div className='top-nav'>
         <div className="logo-year">
@@ -39,7 +45,7 @@ const navbar = () => {
                 <Link to="/team">TEAM</Link>
             </li>
             <li>
-                <Link to="/#footer">CONTACT</Link>
+                <Link to="/#footer" onClick={handleScrollToFooter}>CONTACT</Link>
             </li>
             
         </div>
