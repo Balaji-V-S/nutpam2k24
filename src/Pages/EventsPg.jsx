@@ -1,5 +1,6 @@
 import "../styles/EventsPg.css";
-import Nav from "../Components/navbar";
+import Navbar from "../Components/navbar";
+import EventButton from "../Assets/EventSwitch";
 import FlipBook from "../Components/FlipBook";
 import Footer from "../Components/footer";
 
@@ -7,6 +8,7 @@ function EventPg(props) {
   return (
     <>
       <div className="parent-root">
+        <EventButton />
         <FlipBook />
         <div className="text-bg">
           <div className="registration-ribbon">
