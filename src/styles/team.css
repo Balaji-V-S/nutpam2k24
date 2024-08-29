@@ -1,6 +1,6 @@
-body {
+.team-det{
     margin: 0;
-    padding: 0;
+    padding-top: 70px;
     display: flex;
     flex-direction: column;
     background: url('../Assets/img/teambg1.png') no-repeat center center fixed;

@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Carousel } from 'primereact/carousel';
 import { TeamService } from './TeamService'; // Assuming you saved the team service here
 import '../styles/team.css';
+import Footer from './footer';
+import Nav from './navbar';
 
 const TeamCarousel = ({ teamName }) => {
     const [teamMembers, setTeamMembers] = useState([]);
@@ -64,6 +66,8 @@ const TeamCarousel = ({ teamName }) => {
 
 export default function CircularDemo() {
     return (
+        <>
+        <Nav/>
         <div className='team-det'>
             <TeamCarousel teamName="Core" />
             <TeamCarousel teamName="Web Developer" />
@@ -90,5 +94,7 @@ export default function CircularDemo() {
             <TeamCarousel teamName="Forger's Mission" />
             <TeamCarousel teamName="Ginwars: Ad Rumble" />
         </div>
+        <Footer/>
+        </>
     );
 }

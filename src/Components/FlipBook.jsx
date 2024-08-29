@@ -3,7 +3,7 @@ import HTMLFlipBook from 'react-pageflip';
 import Eve1 from '../Assets/events/event1.jpg';
 import Eve2 from '../Assets/events/event2.jpg';
 import Eve3 from '../Assets/events/event3.jpg';
-// import Eve4 from '../Assets/events/event4.jpg';
+import Eve4 from '../Assets/events/event4.jpg';
 import Eve5 from '../Assets/events/event5.jpg';
 import Eve6 from '../Assets/events/event6.jpg';
 import Eve7 from '../Assets/events/event7.jpg';
@@ -17,6 +17,8 @@ import Eve14 from '../Assets/events/event14.jpg';
 import Eve15 from '../Assets/events/event15.jpg';
 import Eve16 from '../Assets/events/event16.jpg';
 import Eve17 from '../Assets/events/event17.jpg';
+import last from '../Assets/events/eventbackcover.jpg';
+
 
 
 function FlipBook(){
@@ -25,7 +27,7 @@ function FlipBook(){
         <div className="demoPage"><img src={Eve1} alt="Page 1"></img></div>
         <div className="demoPage"><img src={Eve2} alt="Page 1"></img></div>
         <div className="demoPage"><img src={Eve3} alt="Page 1"></img></div>
-        {/* <div className="demoPage"><img src={Eve4} alt="Page 1"></img></div> */}
+        <div className="demoPage"><img src={Eve4} alt="Page 1"></img></div>
         <div className="demoPage"><img src={Eve5} alt="Page 1"></img></div>
         <div className="demoPage"><img src={Eve6} alt="Page 1"></img></div>
         <div className="demoPage"><img src={Eve7} alt="Page 1"></img></div>
@@ -39,6 +41,8 @@ function FlipBook(){
         <div className="demoPage"><img src={Eve15} alt="Page 1"></img></div>
         <div className="demoPage"><img src={Eve16} alt="Page 1"></img></div>
         <div className="demoPage"><img src={Eve17} alt="Page 1"></img></div>
+        <div className="demoPage"><img src={last} alt="Page 1"></img></div>
+
     </HTMLFlipBook>
     )
 }

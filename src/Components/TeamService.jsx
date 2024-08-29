@@ -186,16 +186,16 @@ export const TeamService = {
                 image: Krithika
             },
             {
-                name: 'Bhaargav Gupta P',
-                role: 'Web Developer',
-                team: 'Web Developer',
-                image: Bhaargav
-            },
-            {
                 name: 'Balaji V S',
                 role: 'Web Developer',
                 team: 'Web Developer',
                 image: Balaji
+            },
+            {
+                name: 'Bhaargav Gupta P',
+                role: 'Web Developer',
+                team: 'Web Developer',
+                image: Bhaargav
             },
             {
                 name: 'Mosuru Abilash',
@@ -222,6 +222,12 @@ export const TeamService = {
                 image: AruneshwarUS
             },
             {
+                name: 'Janahar S',
+                role: 'UI/UX Designer',
+                team: 'Web Design',
+                image: JanaharS
+            },
+            {
                 name: 'Jayaramakrishna D',
                 role: 'UI/UX Designer',
                 team: 'Web Design',
@@ -232,12 +238,6 @@ export const TeamService = {
                 role: 'UI/UX Designer',
                 team: 'Web Design',
                 image: DeenuPN
-            },
-            {
-                name: 'Janahar S',
-                role: 'UI/UX Designer',
-                team: 'Web Design',
-                image: JanaharS
             },
             {
                 name: 'Hari Pranava M',
@@ -274,6 +274,12 @@ export const TeamService = {
                 role: 'Content Developer',
                 team: 'Content Developer',
                 image: BathriNarayanV
+            },
+            {
+                name: 'Nitheesh Srinivaasan',
+                role: 'Office Bearer',
+                team: 'Office Bearer',
+                image: NitheeshSrinivaasan
             },
             {
                 name: 'Swapna A',
@@ -334,12 +340,6 @@ export const TeamService = {
                 role: 'Office Bearer',
                 team: 'Office Bearer',
                 image: SibisuryaS
-            },
-            {
-                name: 'Nitheesh Srinivaasan',
-                role: 'Office Bearer',
-                team: 'Office Bearer',
-                image: NitheeshSrinivaasan
             },
             {
                 name: 'Hariharan S',

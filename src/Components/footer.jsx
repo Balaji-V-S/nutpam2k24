@@ -43,7 +43,7 @@ const footer = () => {
         </div>
         <div>
           <h6 className="co-heading">Student Coordinator</h6>
-          <h6 className="co-name">Abishek M- 9789637083</h6>
+          <h6 className="co-name">Abhishek M- 9789637083</h6>
           <h6 className="co-name">Aiswarya S M -9790867582</h6>
         </div>
       </div>
