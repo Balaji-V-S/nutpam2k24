@@ -68,7 +68,7 @@
     border-radius: 10px;
     border: rgb(72, 70, 70) 2px solid;
     padding: 10px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 /* Register link styles */

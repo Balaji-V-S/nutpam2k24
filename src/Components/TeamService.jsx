@@ -126,6 +126,7 @@ import Esthak from '../Assets/img/Team/ESTHAK_JEROSIN_K.png';
 import Harsha from '../Assets/img/Team/HARSHA_V.png';
 import Sandhya from '../Assets/img/Team/SANDHYA_K_B.png';
 import AbishaEunice from '../Assets/img/Team/ABISHA_EUNICE_A.png';
+import SarveshrajM from '../Assets/img/Team/SARVESHRAJ_M.png';
 
 
 export const TeamService = {
@@ -186,16 +187,16 @@ export const TeamService = {
                 image: Krithika
             },
             {
-                name: 'Balaji V S',
-                role: 'Web Developer',
-                team: 'Web Developer',
-                image: Balaji
-            },
-            {
                 name: 'Bhaargav Gupta P',
                 role: 'Web Developer',
                 team: 'Web Developer',
                 image: Bhaargav
+            },
+            {
+                name: 'Balaji V S',
+                role: 'Web Developer',
+                team: 'Web Developer',
+                image: Balaji
             },
             {
                 name: 'Mosuru Abilash',
@@ -274,6 +275,12 @@ export const TeamService = {
                 role: 'Content Developer',
                 team: 'Content Developer',
                 image: BathriNarayanV
+            },
+            {
+                name: 'Aishwarya S M',
+                role: 'Office Bearer',
+                team: 'Office Bearer',
+                image: Aishwarya
             },
             {
                 name: 'Nitheesh Srinivaasan',
@@ -378,22 +385,16 @@ export const TeamService = {
                 image: NandaKumarRP
             },
             {
-                name: 'Sedhumadhavan K',
+                name: 'Sarveshraj M',
                 role: 'Video Editor',
                 team: 'Video Editing',
-                image: SedhumadhavanK
+                image: SarveshrajM
             },
             {
                 name: 'Anuj Krishna J M',
                 role: 'Video Editor',
                 team: 'Video Editing',
                 image: AnujKrishnaJM
-            },
-            {
-                name: 'Aishwarya S M',
-                role: 'Overall Event Coordinator',
-                team: 'Overall Event Coordinator',
-                image: Aishwarya
             },
             {
                 name: 'Yuvanesh P',
@@ -406,6 +407,12 @@ export const TeamService = {
                 role: 'Digital Influencer',
                 team: 'Social Media',
                 image: BhargavSrikumar
+            },
+            {
+                name: 'Sedhumadhavan K',
+                role: 'Digital Influencer',
+                team: 'Social Media',
+                image: SedhumadhavanK
             },
             {
                 name: 'Aswanth T',

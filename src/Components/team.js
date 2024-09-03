@@ -58,7 +58,7 @@ const TeamCarousel = ({ teamName }) => {
 
     return (
         <div className="card">
-            <h3>{teamName} Team</h3>
+            <h3>{teamName} Ninjas</h3>
             <Carousel value={teamMembers} numScroll={1} numVisible={5} responsiveOptions={responsiveOptions} itemTemplate={teamTemplate}  autoplayInterval={3000} />
         </div>
     );
@@ -76,7 +76,6 @@ export default function CircularDemo() {
             <TeamCarousel teamName="Office Bearer" />
             <TeamCarousel teamName="Video Editing" />
             <TeamCarousel teamName="Social Media" />
-            <TeamCarousel teamName="Overall Event Coordinator" />
             <TeamCarousel teamName="QUIRK CLASH: PRO VS FOE" />
             <TeamCarousel teamName="Dungeon Tech Quiz" />
             <TeamCarousel teamName="Zanpakuto capture" />

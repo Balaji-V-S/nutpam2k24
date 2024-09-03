@@ -47,10 +47,10 @@ const Header = () => {
             <div>技</div>
             <div>術</div>
           </div>
-          <button
+          <div
             className="register">
             Registrations Closed ❌
-          </button>
+          </div>
           <div className="jap-number">
             <div>二</div>
             <div>千</div>

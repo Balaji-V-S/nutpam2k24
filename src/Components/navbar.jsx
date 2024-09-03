@@ -29,10 +29,12 @@ const navbar = () => {
   };
   return (
     <div className='top-nav'>
+      <Link to="/">
         <div className="logo-year">
           <img src={logo} alt="Nutpam Logo of Dragon"/>
           <h2 className="year-2k24">2 K 2 4</h2>
         </div>
+      </Link>
         <div className="nav">
             <li>
                 <Link to="/">HOME</Link>
