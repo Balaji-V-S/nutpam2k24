@@ -49,10 +49,10 @@ const Header = () => {
           </div>
           <button
             className="register"
-            onClick={() =>
+{/*             onClick={() =>
               window.open("https://forms.gle/6YfPugs214DG3je87", "_blank")
-            }>
-            Register Now!
+            }> */}
+            Registrations Closed ❌
           </button>
           <div className="jap-number">
             <div>二</div>
