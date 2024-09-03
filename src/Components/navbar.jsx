@@ -49,7 +49,6 @@ const navbar = () => {
             <li>
                 <Link to="/#footer" onClick={handleScrollToFooter}>CONTACT</Link>
             </li>
-            
         </div>
         <div className="burger-menu" onClick={updateMenu}>
           <div className={burger_class}></div>

@@ -59,14 +59,13 @@
 }
 
 /* Button styling */
-.register-btn button {
+.register-btn div {
     background-color: #f34242;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
     border: none;
     font-size: 1rem;
-    cursor: pointer;
     transition: background-color 0.3s;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }

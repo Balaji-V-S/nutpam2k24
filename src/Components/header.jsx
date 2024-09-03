@@ -1,6 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React,{useRef,useState} from 'react'
-import Navbar from './navbar';
 import "../styles/header.css";
 
 //header
@@ -40,7 +39,6 @@ const Header = () => {
   return (
     <>
       <div className="bg">
-        <Navbar />
         <div className="heading">NUTPAM</div>
         <div className="jap-text">
           <div className="technology">

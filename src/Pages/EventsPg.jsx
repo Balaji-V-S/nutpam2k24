@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/EventsPg.css";
 import Navbar from "../Components/navbar";
 import FlipBook from "../Components/FlipBook";
@@ -17,10 +17,9 @@ function EventPg(props) {
             <p>Go register 👇</p>
           </div>
           <div className="register-btn">
-            <button
-              className="bg-red-500 text-white px-4 py-2 rounded" >
-              Registrations Closed❌
-            </button>
+            <div>
+              Registrations Closed ❌
+            </div>
           </div>
         </div>
       </div>

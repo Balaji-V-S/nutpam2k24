@@ -23,27 +23,26 @@ import last from '../Assets/events/eventbackcover.jpg';
 
 function FlipBook(){
     return(
-        <HTMLFlipBook width={700} height={500}>
-        <div className="demoPage"><img src={Eve1} alt="Page 1"></img></div>
-        <div className="demoPage"><img src={Eve2} alt="Page 1"></img></div>
-        <div className="demoPage"><img src={Eve3} alt="Page 1"></img></div>
-        <div className="demoPage"><img src={Eve4} alt="Page 1"></img></div>
-        <div className="demoPage"><img src={Eve5} alt="Page 1"></img></div>
-        <div className="demoPage"><img src={Eve6} alt="Page 1"></img></div>
-        <div className="demoPage"><img src={Eve7} alt="Page 1"></img></div>
-        <div className="demoPage"><img src={Eve8} alt="Page 1"></img></div>
-        <div className="demoPage"><img src={Eve9} alt="Page 1"></img></div>
-        <div className="demoPage"><img src={Eve10} alt="Page 1"></img></div>
-        <div className="demoPage"><img src={Eve11} alt="Page 1"></img></div>
-        <div className="demoPage"><img src={Eve12} alt="Page 1"></img></div>
-        <div className="demoPage"><img src={Eve13} alt="Page 1"></img></div>
-        <div className="demoPage"><img src={Eve14} alt="Page 1"></img></div>
-        <div className="demoPage"><img src={Eve15} alt="Page 1"></img></div>
-        <div className="demoPage"><img src={Eve16} alt="Page 1"></img></div>
-        <div className="demoPage"><img src={Eve17} alt="Page 1"></img></div>
-        <div className="demoPage"><img src={last} alt="Page 1"></img></div>
-
-    </HTMLFlipBook>
+        <HTMLFlipBook width={700} height={500} className='flip-book' size='stretch' minWidth={785}>
+            <div className="demoPage"><img src={Eve1} alt="Page 1"></img></div>
+            <div className="demoPage"><img src={Eve2} alt="Page 1"></img></div>
+            <div className="demoPage"><img src={Eve3} alt="Page 1"></img></div>
+            <div className="demoPage"><img src={Eve4} alt="Page 1"></img></div>
+            <div className="demoPage"><img src={Eve5} alt="Page 1"></img></div>
+            <div className="demoPage"><img src={Eve6} alt="Page 1"></img></div>
+            <div className="demoPage"><img src={Eve7} alt="Page 1"></img></div>
+            <div className="demoPage"><img src={Eve8} alt="Page 1"></img></div>
+            <div className="demoPage"><img src={Eve9} alt="Page 1"></img></div>
+            <div className="demoPage"><img src={Eve10} alt="Page 1"></img></div>
+            <div className="demoPage"><img src={Eve11} alt="Page 1"></img></div>
+            <div className="demoPage"><img src={Eve12} alt="Page 1"></img></div>
+            <div className="demoPage"><img src={Eve13} alt="Page 1"></img></div>
+            <div className="demoPage"><img src={Eve14} alt="Page 1"></img></div>
+            <div className="demoPage"><img src={Eve15} alt="Page 1"></img></div>
+            <div className="demoPage"><img src={Eve16} alt="Page 1"></img></div>
+            <div className="demoPage"><img src={Eve17} alt="Page 1"></img></div>
+            <div className="demoPage"><img src={last} alt="Page 1"></img></div>
+        </HTMLFlipBook>
     )
 }
 
