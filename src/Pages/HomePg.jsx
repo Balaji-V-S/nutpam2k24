@@ -3,6 +3,7 @@ import Navbar from '../Components/navbar';
 import Header from '../Components/header';
 import Know from '../Components/know';
 import About from '../Components/about';
+import Sponsor from '../Components/sponsors';
 import Footer from '../Components/footer';
 
 function Home(){
@@ -12,6 +13,7 @@ function Home(){
         <Header/>
         <About/>
         <Know/>
+        <Sponsor/>
         <Footer/>
         </>
     )
