@@ -278,8 +278,8 @@ export const TeamService = {
             },
             {
                 name: 'Aishwarya S M',
-                role: 'Office Bearer',
-                team: 'Office Bearer',
+                role: 'Overall Coordinator',
+                team: 'Overall Coordinator',
                 image: Aishwarya
             },
             {

@@ -76,6 +76,7 @@ export default function CircularDemo() {
             <TeamCarousel teamName="Office Bearer" />
             <TeamCarousel teamName="Video Editing" />
             <TeamCarousel teamName="Social Media" />
+            <TeamCarousel teamName="Overall Coordinator" />
             <TeamCarousel teamName="QUIRK CLASH: PRO VS FOE" />
             <TeamCarousel teamName="Dungeon Tech Quiz" />
             <TeamCarousel teamName="Zanpakuto capture" />
