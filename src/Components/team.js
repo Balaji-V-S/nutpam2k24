@@ -58,7 +58,7 @@ const TeamCarousel = ({ teamName }) => {
 
     return (
         <div className="card">
-            <h3>{teamName} Ninjas</h3>
+            <h3>{teamName}</h3>
             <Carousel value={teamMembers} numScroll={1} numVisible={5} responsiveOptions={responsiveOptions} itemTemplate={teamTemplate}  autoplayInterval={3000} />
         </div>
     );
@@ -69,30 +69,30 @@ export default function CircularDemo() {
         <>
         <Nav/>
         <div className='team-det'>
-            <TeamCarousel teamName="Core" />
-            <TeamCarousel teamName="Web Developer" />
-            <TeamCarousel teamName="Web Design" />
-            <TeamCarousel teamName="Content Developer" />
-            <TeamCarousel teamName="Office Bearer" />
-            <TeamCarousel teamName="Video Editing" />
-            <TeamCarousel teamName="Social Media" />
-            <TeamCarousel teamName="Overall Coordinator" />
-            <TeamCarousel teamName="QUIRK CLASH: PRO VS FOE" />
-            <TeamCarousel teamName="Dungeon Tech Quiz" />
-            <TeamCarousel teamName="Zanpakuto capture" />
-            <TeamCarousel teamName="Pitch With Power" />
-            <TeamCarousel teamName="Pirate’s Idea Quest" />
-            <TeamCarousel teamName="Shinobi's Design Quest" />
-            <TeamCarousel teamName="Stone Age Relay" />
-            <TeamCarousel teamName="Shadow Code" />
-            <TeamCarousel teamName="Sharingan Pixels" />
-            <TeamCarousel teamName="Tokyo Bid Showdown" />
-            <TeamCarousel teamName="Titan Tactics" />
-            <TeamCarousel teamName="Slayer Snapshot" />
-            <TeamCarousel teamName="Shibuya Survival Clash" />
-            <TeamCarousel teamName="Lelouch's Cinematica" />
-            <TeamCarousel teamName="Forger's Mission" />
-            <TeamCarousel teamName="Ginwars: Ad Rumble" />
+            <TeamCarousel teamName="Core Ninjas" />
+            <TeamCarousel teamName="Web Developer Ninjas" />
+            <TeamCarousel teamName="Web Design Ninjas" />
+            <TeamCarousel teamName="Content Developer Ninjas" />
+            <TeamCarousel teamName="Office Bearer Ninjas" />
+            <TeamCarousel teamName="Video Editing Ninjas" />
+            <TeamCarousel teamName="Social Media Ninjas" />
+            <TeamCarousel teamName="Overall Event Coordinator Ninja" />
+            <TeamCarousel teamName="QUIRK CLASH: PRO VS FOE Ninjas" />
+            <TeamCarousel teamName="Dungeon Tech Quiz Ninjas" />
+            <TeamCarousel teamName="Zanpakuto capture Ninjas" />
+            <TeamCarousel teamName="Pitch With Power Ninjas" />
+            <TeamCarousel teamName="Pirate’s Idea Quest Ninjas" />
+            <TeamCarousel teamName="Shinobi's Design Quest Ninjas" />
+            <TeamCarousel teamName="Stone Age Relay Ninjas" />
+            <TeamCarousel teamName="Shadow Code Ninjas" />
+            <TeamCarousel teamName="Sharingan Pixels Ninjas" />
+            <TeamCarousel teamName="Tokyo Bid Showdown Ninjas" />
+            <TeamCarousel teamName="Titan Tactics Ninjas" />
+            <TeamCarousel teamName="Slayer Snapshot Ninjas" />
+            <TeamCarousel teamName="Shibuya Survival Clash Ninjas" />
+            <TeamCarousel teamName="Lelouch's Cinematica Ninjas" />
+            <TeamCarousel teamName="Forger's Mission Ninjas" />
+            <TeamCarousel teamName="Ginwars: Ad Rumble Ninjas" />
         </div>
         <Footer/>
         </>

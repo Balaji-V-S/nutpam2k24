@@ -135,417 +135,417 @@ export const TeamService = {
             {
                 name: 'Sreedevi',
                 role: 'HOD/CSE',
-                team: 'Core',
+                team: 'Core Ninjas',
                 image: Sreedevi
             },
             {
                 name: 'Pathmanaban',
                 role: 'AP/CSE',
-                team: 'Core',
+                team: 'Core Ninjas',
                 image: Pathmanaban
             },
             {
                 name: 'Mathupriya',
                 role: 'AP/CSE',
-                team: 'Core',
+                team: 'Core Ninjas',
                 image: Mathupriya
             },
             {
                 name: 'Ebishdon G V',
                 role: 'Chairman',
-                team: 'Core',
+                team: 'Core Ninjas',
                 image: EbishdonGv
             },
             {
                 name: 'Sachein D',
                 role: 'Vice Chairman',
-                team: 'Core',
+                team: 'Core Ninjas',
                 image: SacheinD
             },
             {
                 name: 'Abhishek M',
                 role: 'Secretary',
-                team: 'Core',
+                team: 'Core Ninjas',
                 image: AbhishekM
             },
             {
                 name: 'Ashwin Sujesh S',
                 role: 'Vice Secretary',
-                team: 'Core',
+                team: 'Core Ninjas',
                 image: AshwinSujeshS
             },
             {
                 name: 'Indhu Priyadharshini S',
                 role: 'Treasurer',
-                team: 'Core',
+                team: 'Core Ninjas',
                 image: IndhuPriyadharshiniS
             },
             {
                 name: 'Krithika',
                 role: 'Vice Treasurer',
-                team: 'Core',
+                team: 'Core Ninjas',
                 image: Krithika
             },
             {
                 name: 'Bhaargav Gupta P',
                 role: 'Web Developer',
-                team: 'Web Developer',
+                team: 'Web Developer Ninjas',
                 image: Bhaargav
             },
             {
                 name: 'Balaji V S',
                 role: 'Web Developer',
-                team: 'Web Developer',
+                team: 'Web Developer Ninjas',
                 image: Balaji
             },
             {
                 name: 'Mosuru Abilash',
                 role: 'Web Developer',
-                team: 'Web Developer',
+                team: 'Web Developer Ninjas',
                 image: MosuruAbilash
             },
             {
                 name: 'Vasanth R',
                 role: 'Web Developer',
-                team: 'Web Developer',
+                team: 'Web Developer Ninjas',
                 image: VasanthR
             },
             {
                 name: 'Wasiq Rahman M A',
                 role: 'Web Developer',
-                team: 'Web Developer',
+                team: 'Web Developer Ninjas',
                 image: WasiqRahmanMA
             },
             {
                 name: 'Aruneshwar U S',
                 role: 'UI/UX Designer',
-                team: 'Web Design',
+                team: 'Web Design Ninjas',
                 image: AruneshwarUS
             },
             {
                 name: 'Janahar S',
                 role: 'UI/UX Designer',
-                team: 'Web Design',
+                team: 'Web Design Ninjas',
                 image: JanaharS
             },
             {
                 name: 'Jayaramakrishna D',
                 role: 'UI/UX Designer',
-                team: 'Web Design',
+                team: 'Web Design Ninjas',
                 image: JayaramakrishnaD
             },
             {
                 name: 'Deenu P N',
                 role: 'UI/UX Designer',
-                team: 'Web Design',
+                team: 'Web Design Ninjas',
                 image: DeenuPN
             },
             {
                 name: 'Hari Pranava M',
                 role: 'UI/UX Designer',
-                team: 'Web Design',
+                team: 'Web Design Ninjas',
                 image: HariPranavaM
             },
             {
                 name: 'Durai Dayananth',
                 role: 'Content Developer',
-                team: 'Content Developer',
+                team: 'Content Developer Ninjas',
                 image: DuraiDayananth
             },
             {
                 name: 'Lamisha A',
                 role: 'Content Developer',
-                team: 'Content Developer',
+                team: 'Content Developer Ninjas',
                 image: LamishaA
             },
             {
                 name: 'Swathi Goswami',
                 role: 'Content Developer',
-                team: 'Content Developer',
+                team: 'Content Developer Ninjas',
                 image: SwathiGoswami
             },
             {
                 name: 'Keerthana G',
                 role: 'Content Developer',
-                team: 'Content Developer',
+                team: 'Content Developer Ninjas',
                 image: KeerthanaG
             },
             {
                 name: 'Bathri Narayan V',
                 role: 'Content Developer',
-                team: 'Content Developer',
+                team: 'Content Developer Ninjas',
                 image: BathriNarayanV
             },
             {
                 name: 'Aishwarya S M',
-                role: 'Overall Coordinator',
-                team: 'Overall Coordinator',
+                role: 'Overall Event Coordinator',
+                team: 'Overall Event Coordinator Ninja',
                 image: Aishwarya
             },
             {
                 name: 'Nitheesh Srinivaasan',
                 role: 'Office Bearer',
-                team: 'Office Bearer',
+                team: 'Office Bearer Ninjas',
                 image: NitheeshSrinivaasan
             },
             {
                 name: 'Swapna A',
                 role: 'Office Bearer',
-                team: 'Office Bearer',
+                team: 'Office Bearer Ninjas',
                 image: SwapnaA
             },
             {
                 name: 'Viveka',
                 role: 'Office Bearer',
-                team: 'Office Bearer',
+                team: 'Office Bearer Ninjas',
                 image: Viveka
             },
             {
                 name: 'Ponvaishnavi Ganesh',
                 role: 'Office Bearer',
-                team: 'Office Bearer',
+                team: 'Office Bearer Ninjas',
                 image: PonvaishnaviGanesh
             },
             {
                 name: 'Pavithra R',
                 role: 'Office Bearer',
-                team: 'Office Bearer',
+                team: 'Office Bearer Ninjas',
                 image: PavithraR
             },
             {
                 name: 'Monica K',
                 role: 'Office Bearer',
-                team: 'Office Bearer',
+                team: 'Office Bearer Ninjas',
                 image: MonicaK
             },
             {
                 name: 'Madhav Tejas',
                 role: 'Office Bearer',
-                team: 'Office Bearer',
+                team: 'Office Bearer Ninjas',
                 image: MadhavTejas
             },
             {
                 name: 'Dharani M',
                 role: 'Office Bearer',
-                team: 'Office Bearer',
+                team: 'Office Bearer Ninjas',
                 image: DharaniM
             },
             {
                 name: 'Pavithra S',
                 role: 'Office Bearer',
-                team: 'Office Bearer',
+                team: 'Office Bearer Ninjas',
                 image: PavithraS
             },
             {
                 name: 'Jawahar J',
                 role: 'Office Bearer',
-                team: 'Office Bearer',
+                team: 'Office Bearer Ninjas',
                 image: JawaharJ
             },
             {
                 name: 'Sibisurya S',
                 role: 'Office Bearer',
-                team: 'Office Bearer',
+                team: 'Office Bearer Ninjas',
                 image: SibisuryaS
             },
             {
                 name: 'Hariharan S',
                 role: 'Office Bearer',
-                team: 'Office Bearer',
+                team: 'Office Bearer Ninjas',
                 image: HariharanS
             },
             {
                 name: 'Mohamed Razeen',
                 role: 'Office Bearer',
-                team: 'Office Bearer',
+                team: 'Office Bearer Ninjas',
                 image: MohamedRazeen
             },
             {
                 name: 'Shiva Prasath R',
                 role: 'Office Bearer',
-                team: 'Office Bearer',
+                team: 'Office Bearer Ninjas',
                 image: ShivaPrasathR
             },
             {
                 name: 'Harish S',
                 role: 'Video Editor',
-                team: 'Video Editing',
+                team: 'Video Editing Ninjas',
                 image: HarishS
             },
             {
                 name: 'Ricky Davis J',
                 role: 'Video Editor',
-                team: 'Video Editing',
+                team: 'Video Editing Ninjas',
                 image: RickyDavisJ
             },
             {
                 name: 'Nanda Kumar R P',
                 role: 'Video Editor',
-                team: 'Video Editing',
+                team: 'Video Editing Ninjas',
                 image: NandaKumarRP
             },
             {
                 name: 'Sarveshraj M',
                 role: 'Video Editor',
-                team: 'Video Editing',
+                team: 'Video Editing Ninjas',
                 image: SarveshrajM
             },
             {
                 name: 'Anuj Krishna J M',
                 role: 'Video Editor',
-                team: 'Video Editing',
+                team: 'Video Editing Ninjas',
                 image: AnujKrishnaJM
             },
             {
                 name: 'Yuvanesh P',
                 role: 'Digital Influencer',
-                team: 'Social Media',
+                team: 'Social Media Ninjas',
                 image: YuvaneshP
             },
             {
                 name: 'Bhargav Srikumar',
                 role: 'Digital Influencer',
-                team: 'Social Media',
+                team: 'Social Media Ninjas',
                 image: BhargavSrikumar
             },
             {
                 name: 'Sedhumadhavan K',
                 role: 'Digital Influencer',
-                team: 'Social Media',
+                team: 'Social Media Ninjas',
                 image: SedhumadhavanK
             },
             {
                 name: 'Aswanth T',
                 role: 'Digital Influencer',
-                team: 'Social Media',
+                team: 'Social Media Ninjas',
                 image: AswanthT
             },
             // Technical Events
             {
                 name: 'Vignesh A K',
                 role: 'Event coordinator',
-                team: 'QUIRK CLASH: PRO VS FOE',
+                team: 'QUIRK CLASH: PRO VS FOE Ninjas',
                 image: Vignesh
             },
             {
                 name: 'Adhirooban',
                 role: 'Event coordinator',
-                team: 'QUIRK CLASH: PRO VS FOE',
+                team: 'QUIRK CLASH: PRO VS FOE Ninjas',
                 image: Adhirooban
             },
             {
                 name: 'Shrivarshini',
                 role: 'Event coordinator',
-                team: 'QUIRK CLASH: PRO VS FOE',
+                team: 'QUIRK CLASH: PRO VS FOE Ninjas',
                 image: Shrivarshini
             },
             {
                 name: 'Nithya Sree',
                 role: 'Event coordinator',
-                team: 'QUIRK CLASH: PRO VS FOE',
+                team: 'QUIRK CLASH: PRO VS FOE Ninjas',
                 image: NithyaSree
             },
             {
                 name: 'Divya Sri',
                 role: 'Event coordinator',
-                team: 'QUIRK CLASH: PRO VS FOE',
+                team: 'QUIRK CLASH: PRO VS FOE Ninjas',
                 image: DivyaSri
             },
             {
                 name: 'Anatha Karthikayan',
                 role: 'Event coordinator',
-                team: 'Dungeon Tech Quiz',
+                team: 'Dungeon Tech Quiz Ninjas',
                 image: AnathaKarthikayan 
             },
             {
                 name: 'Dharun Kumar',
                 role: 'Event coordinator',
-                team: 'Dungeon Tech Quiz',
+                team: 'Dungeon Tech Quiz Ninjas',
                 image: DharunKumar 
             },
             {
                 name: 'Kirthana',
                 role: 'Event coordinator',
-                team: 'Dungeon Tech Quiz',
+                team: 'Dungeon Tech Quiz Ninjas',
                 image: Kirthana
             },
             {
                 name: 'Dharshini V',
                 role: 'Event coordinator',
-                team: 'Dungeon Tech Quiz',
+                team: 'Dungeon Tech Quiz Ninjas',
                 image: DharshiniV 
             },
             {
                 name: 'Lokeshvar P',
                 role: 'Event coordinator',
-                team: 'Dungeon Tech Quiz',
+                team: 'Dungeon Tech Quiz Ninjas',
                 image: LokeshvarP
             },
             {
                 name: 'Muthupriya',
                 role: 'Event coordinator',
-                team: 'Zanpakuto capture',
+                team: 'Zanpakuto capture Ninjas',
                 image: Muthupriya
             },
             {
                 name: 'Amirtha',
                 role: 'Event coordinator',
-                team: 'Zanpakuto capture',
+                team: 'Zanpakuto capture Ninjas',
                 image: Amirtha
             },
             {
                 name: 'Sri Varshan V M',
                 role: 'Event coordinator',
-                team: 'Zanpakuto capture',
+                team: 'Zanpakuto capture Ninjas',
                 image: SriVarshan
             },
             {
                 name: 'Radhika V',
                 role: 'Event coordinator',
-                team: 'Zanpakuto capture',
+                team: 'Zanpakuto capture Ninjas',
                 image: Radhika
             },
             {
                 name: 'Sridhar A',
                 role: 'Event coordinator',
-                team: 'Zanpakuto capture',
+                team: 'Zanpakuto capture Ninjas',
                 image: Sridhar
             },
             // Pitch With Power Team
             {
                 name: 'Thanyasree S J',
                 role: 'Event Coordinator',
-                team: 'Pitch With Power',
+                team: 'Pitch With Power Ninjas',
                 image: Thanyasree
             },
             {
                 name: 'Shrikanth',
                 role: 'Event Coordinator',
-                team: 'Pitch With Power',
+                team: 'Pitch With Power Ninjas',
                 image: Shrikanth
             },
             {
                 name: 'Sai Krithika M',
                 role: 'Event Coordinator',
-                team: 'Pitch With Power',
+                team: 'Pitch With Power Ninjas',
                 image: SaiKrithika
             },
             {
                 name: 'Vinay',
                 role: 'Event Coordinator',
-                team: 'Pitch With Power',
+                team: 'Pitch With Power Ninjas',
                 image: Vinay
             },
             {
                 name: 'Thiruvikraman GS',
                 role: 'Event Coordinator',
-                team: 'Pitch With Power',
+                team: 'Pitch With Power Ninjas',
                 image: Thiruvikraman
             },
             {
                 name: 'Pavithra R',
                 role: 'Event Coordinator',
-                team: 'Pitch With Power',
+                team: 'Pitch With Power Ninjas',
                 image: Pavithra
             },
 
@@ -553,31 +553,31 @@ export const TeamService = {
             {
                 name: 'Sreenidhi',
                 role: 'Event Coordinator',
-                team: "Pirate’s Idea Quest",
+                team: "Pirate’s Idea Quest Ninjas",
                 image: Sreenidhi
             },
             {
                 name: 'Hema Shree',
                 role: 'Event Coordinator',
-                team: "Pirate’s Idea Quest",
+                team: "Pirate’s Idea Quest Ninjas",
                 image: HemaShree
             },
             {
                 name: 'ARUN KUMAR T',
                 role: 'Event Coordinator',
-                team: "Pirate’s Idea Quest",
+                team: "Pirate’s Idea Quest Ninjas",
                 image: ArunKumar
             },
             {
                 name: 'Balaji V',
                 role: 'Event Coordinator',
-                team: "Pirate’s Idea Quest",
+                team: "Pirate’s Idea Quest Ninjas",
                 image: BalajiV
             },
             {
                 name: 'ThamaraiSelvan',
                 role: 'Event Coordinator',
-                team: "Pirate’s Idea Quest",
+                team: "Pirate’s Idea Quest Ninjas",
                 image: ThamaraiSelvan
             },
 
@@ -585,31 +585,31 @@ export const TeamService = {
             {
                 name: 'Varshini',
                 role: 'Event Coordinator',
-                team: "Shinobi's Design Quest",
+                team: "Shinobi's Design Quest Ninjas",
                 image: Varshini
             },
             {
                 name: 'Kaviyanjali',
                 role: 'Event Coordinator',
-                team: "Shinobi's Design Quest",
+                team: "Shinobi's Design Quest Ninjas",
                 image: Kaviyanjali
             },
             {
                 name: 'Simon Jacob',
                 role: 'Event Coordinator',
-                team: "Shinobi's Design Quest",
+                team: "Shinobi's Design Quest Ninjas",
                 image: SimonJacob
             },
             {
                 name: 'Ananthi',
                 role: 'Event Coordinator',
-                team: "Shinobi's Design Quest",
+                team: "Shinobi's Design Quest Ninjas",
                 image: Ananthi
             },
             {
                 name: 'RUPESHWAR DURAISAMY',
                 role: 'Event Coordinator',
-                team: "Shinobi's Design Quest",
+                team: "Shinobi's Design Quest Ninjas",
                 image: Rupeshwar
             },
 
@@ -617,31 +617,31 @@ export const TeamService = {
             {
                 name: 'Siddarth',
                 role: 'Event Coordinator',
-                team: 'Stone Age Relay',
+                team: 'Stone Age Relay Ninjas',
                 image: Siddarth
             },
             {
                 name: 'Kavinshree',
                 role: 'Event Coordinator',
-                team: 'Stone Age Relay',
+                team: 'Stone Age Relay Ninjas',
                 image: Kavinshree
             },
             {
                 name: 'Supriya',
                 role: 'Event Coordinator',
-                team: 'Stone Age Relay',
+                team: 'Stone Age Relay Ninjas',
                 image: Supriya
             },
             {
                 name: 'Udhaya Kiran',
                 role: 'Event Coordinator',
-                team: 'Stone Age Relay',
+                team: 'Stone Age Relay Ninjas',
                 image: UdhayaKiran
             },
             {
                 name: 'Thirumugil M S',
                 role: 'Event Coordinator',
-                team: 'Stone Age Relay',
+                team: 'Stone Age Relay Ninjas',
                 image: Thirumugil
             },
 
@@ -649,31 +649,31 @@ export const TeamService = {
             {
                 name: 'Harisharajan',
                 role: 'Event Coordinator',
-                team: 'Shadow Code',
+                team: 'Shadow Code Ninjas',
                 image: Harisharajan
             },
             {
                 name: 'Gayathri',
                 role: 'Event Coordinator',
-                team: 'Shadow Code',
+                team: 'Shadow Code Ninjas',
                 image: Gayathri
             },
             {
                 name: 'Bhagyashree L',
                 role: 'Event Coordinator',
-                team: 'Shadow Code',
+                team: 'Shadow Code Ninjas',
                 image: Bhagyashree
             },
             {
                 name: 'Aswin R',
                 role: 'Event Coordinator',
-                team: 'Shadow Code',
+                team: 'Shadow Code Ninjas',
                 image: Aswin
             },
             {
                 name: 'D DEEPIKA',
                 role: 'Event Coordinator',
-                team: 'Shadow Code',
+                team: 'Shadow Code Ninjas',
                 image: Deepika
             },
 
@@ -681,241 +681,241 @@ export const TeamService = {
             {
                 name: 'Krushnasayi',
                 role: 'Event coordinator',
-                team: 'Sharingan Pixels',
+                team: 'Sharingan Pixels Ninjas',
                 image: Krushnasayi
             },
             {
                 name: 'Naveen Krishna',
                 role: 'Event coordinator',
-                team: 'Sharingan Pixels',
+                team: 'Sharingan Pixels Ninjas',
                 image: NaveenKrishna
             },
             {
                 name: 'Charu',
                 role: 'Event coordinator',
-                team: 'Sharingan Pixels',
+                team: 'Sharingan Pixels Ninjas',
                 image: Charu
             },
             {
                 name: 'Bhoomika',
                 role: 'Event coordinator',
-                team: 'Sharingan Pixels',
+                team: 'Sharingan Pixels Ninjas',
                 image: Bhoomika
             },
             {
                 name: 'Sakthi Arunachalam',
                 role: 'Event coordinator',
-                team: 'Tokyo Bid Showdown',
+                team: 'Tokyo Bid Showdown Ninjas',
                 image: SakthiArunachalam
             },
             {
                 name: 'Sharjun',
                 role: 'Event coordinator',
-                team: 'Tokyo Bid Showdown',
+                team: 'Tokyo Bid Showdown Ninjas',
                 image: Sharjun
             },
             {
                 name: 'Laris Peter P',
                 role: 'Event coordinator',
-                team: 'Tokyo Bid Showdown',
+                team: 'Tokyo Bid Showdown Ninjas',
                 image: LarisPeterP
             },
             {
                 name: 'Praveen Kumar',
                 role: 'Event coordinator',
-                team: 'Tokyo Bid Showdown',
+                team: 'Tokyo Bid Showdown Ninjas',
                 image: PraveenKumar
             },
             {
                 name: 'Naveen Kumar',
                 role: 'Event coordinator',
-                team: 'Tokyo Bid Showdown',
+                team: 'Tokyo Bid Showdown Ninjas',
                 image: NaveenKumar
             },
             {
                 name: 'Nithyashree',
                 role: 'Event coordinator',
-                team: 'Slayer Snapshot',
+                team: 'Slayer Snapshot Ninjas',
                 image: Nithyashree
             },
             {
                 name: 'Harish D K',
                 role: 'Event coordinator',
-                team: 'Slayer Snapshot',
+                team: 'Slayer Snapshot Ninjas',
                 image: HarishDK
             },
             {
                 name: 'Yathin Sai',
                 role: 'Event coordinator',
-                team: 'Slayer Snapshot',
+                team: 'Slayer Snapshot Ninjas',
                 image: YathinSai
             },
             {
                 name: 'Abinaya R',
                 role: 'Event coordinator',
-                team: 'Slayer Snapshot',
+                team: 'Slayer Snapshot Ninjas',
                 image: AbinayaR
             },
             {
                 name: 'Yogesh',
                 role: 'Event coordinator',
-                team: 'Slayer Snapshot',
+                team: 'Slayer Snapshot Ninjas',
                 image: Yogesh
             },
             {
                 name: 'Gowtham',
                 role: 'Event coordinator',
-                team: 'Shibuya Survival Clash',
+                team: 'Shibuya Survival Clash Ninjas',
                 image: Gowtham
             },
             {
                 name: 'Aravind Suriya',
                 role: 'Event coordinator',
-                team: 'Shibuya Survival Clash',
+                team: 'Shibuya Survival Clash Ninjas',
                 image: AravindSuriya
             },
             {
                 name: 'Khoshik Perumal S',
                 role: 'Event coordinator',
-                team: 'Shibuya Survival Clash',
+                team: 'Shibuya Survival Clash Ninjas',
                 image: KhoshikPerumalS
             },
             {
                 name: 'Sakthivel P',
                 role: 'Event coordinator',
-                team: 'Shibuya Survival Clash',
+                team: 'Shibuya Survival Clash Ninjas',
                 image: SakthivelP
             },
             {
                 name: 'Suhail Ahmed T',
                 role: 'Event coordinator',
-                team: 'Shibuya Survival Clash',
+                team: 'Shibuya Survival Clash Ninjas',
                 image: SuhailAhmedT
             },
             {
                 name: 'Siddheswari',
                 role: 'Event coordinator',
-                team: 'Lelouch\'s Cinematica',
+                team: 'Lelouch\'s Cinematica Ninjas',
                 image: Siddheswari
             },
             {
                 name: 'Shanmathi',
                 role: 'Event coordinator',
-                team: 'Lelouch\'s Cinematica',
+                team: 'Lelouch\'s Cinematica Ninjas',
                 image: Shanmathi
             },
             {
                 name: 'Sathasivam',
                 role: 'Event coordinator',
-                team: 'Lelouch\'s Cinematica',
+                team: 'Lelouch\'s Cinematica Ninjas',
                 image: Sathasivam
             },
             {
                 name: 'Sabareesh C S',
                 role: 'Event coordinator',
-                team: 'Lelouch\'s Cinematica',
+                team: 'Lelouch\'s Cinematica Ninjas',
                 image: SabareeshCS
             },
             {
                 name: 'Vaishak D',
                 role: 'Event coordinator',
-                team: 'Lelouch\'s Cinematica',
+                team: 'Lelouch\'s Cinematica Ninjas',
                 image: VaishakD
             },
             {
                 name: 'Yuvabharathi',
                 role: 'Event coordinator',
-                team: 'Lelouch\'s Cinematica',
+                team: 'Lelouch\'s Cinematica Ninjas',
                 image: Yuvabharathi
             },
             {
                 name: 'Harithra',
                 role: 'Event coordinator',
-                team: 'Forger\'s Mission',
+                team: 'Forger\'s Mission Ninjas',
                 image: Harithra
             },
             {
                 name: 'Keerthana',
                 role: 'Event coordinator',
-                team: 'Forger\'s Mission',
+                team: 'Forger\'s Mission Ninjas',
                 image: Keerthana
             },
             {
                 name: 'Pravikash',
                 role: 'Event coordinator',
-                team: 'Forger\'s Mission',
+                team: 'Forger\'s Mission Ninjas',
                 image: Pravikash
             },
             {
                 name: 'Dharanidharan',
                 role: 'Event coordinator',
-                team: 'Forger\'s Mission',
+                team: 'Forger\'s Mission Ninjas',
                 image: Dharanidharan
             },
             {
                 name: 'Ajitha Ananthi J',
                 role: 'Event coordinator',
-                team: 'Forger\'s Mission',
+                team: 'Forger\'s Mission Ninjas',
                 image: AjithaAnanthiJ
             },
             {
                 name: 'Dharshini',
                 role: 'Event coordinator',
-                team: 'Ginwars: Ad Rumble',
+                team: 'Ginwars: Ad Rumble Ninjas',
                 image: DharshiniNew
             },
             {
                 name: 'Naveen Karthick',
                 role: 'Event coordinator',
-                team: 'Ginwars: Ad Rumble',
+                team: 'Ginwars: Ad Rumble Ninjas',
                 image: NaveenKarthick
             },
             {
                 name: 'Pavithra',
                 role: 'Event coordinator',
-                team: 'Ginwars: Ad Rumble',
+                team: 'Ginwars: Ad Rumble Ninjas',
                 image: PavithraAds
             },
             {
                 name: 'Padmasree',
                 role: 'Event coordinator',
-                team: 'Ginwars: Ad Rumble',
+                team: 'Ginwars: Ad Rumble Ninjas',
                 image: Padmasree
             },
             {
                 name: 'Sridhar R',
                 role: 'Event coordinator',
-                team: 'Ginwars: Ad Rumble',
+                team: 'Ginwars: Ad Rumble Ninjas',
                 image: SridharR
             },
             {
                 name: 'Mugunthan',
                 role: 'Event coordinator',
-                team: 'Titan Tactics',
+                team: 'Titan Tactics Ninjas',
                 image: Mukunthan
             },
             {
                 name: 'Esthak',
                 role: 'Event coordinator',
-                team: 'Titan Tactics',
+                team: 'Titan Tactics Ninjas',
                 image: Esthak
             },
             {
                 name: 'Harsha',
                 role: 'Event coordinator',
-                team: 'Titan Tactics',
+                team: 'Titan Tactics Ninjas',
                 image: Harsha
             },
             {
                 name: 'Sandhya',
                 role: 'Event coordinator',
-                team: 'Titan Tactics',
+                team: 'Titan Tactics Ninjas',
                 image: Sandhya
             },
             {
                 name: 'Abisha Eunice',
                 role: 'Event coordinator',
-                team: 'Titan Tactics',
+                team: 'Titan Tactics Ninjas',
                 image: AbishaEunice
             }            
            
