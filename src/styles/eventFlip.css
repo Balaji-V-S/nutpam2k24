@@ -1,0 +1,280 @@
+.firstpage{
+    background-image: url('../Assets/events_imgs/bg/firstPage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.eventSlide1{
+    background-image: url('../Assets/events_imgs/bg/OPBG.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+}
+.eventSlide2{
+    background-image: url('../Assets/events_imgs/bg/naruto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+}
+.eventSlide3{
+    background-image: url('../Assets/events_imgs/bg/deathnote.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+}
+.eventSlide4{
+    background-image: url('../Assets/events_imgs/bg/onepunchman.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+}
+.eventSlide5{
+    background-image: url('../Assets/events_imgs/bg/bleach.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+}
+.eventSlide6{
+    background-image: url('../Assets/events_imgs/bg/drstone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+}
+.eventSlide7{
+    background-image: url('../Assets/events_imgs/bg/dungeon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+}
+.eventSlide8{
+    background-image: url('../Assets/events_imgs/bg/myheroacademia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+}
+.eventSlide9{
+    background-image: url('../Assets/events_imgs/bg/itachi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+}
+.eventSlide10{
+    background-image: url('../Assets/events_imgs/bg/tokyorevengers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+}
+.eventSlide11{
+    background-image: url('../Assets/events_imgs/bg/aot.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+}
+.eventSlide12{
+    background-image: url('../Assets/events_imgs/bg/nezuko.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+}
+.eventSlide13{
+    background-image: url('../Assets/events_imgs/bg/jjk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+}
+.eventSlide14{
+    background-image: url('../Assets/events_imgs/bg/lelouch.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+}
+.eventSlide15{
+    background-image: url('../Assets/events_imgs/bg/spyx.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+}
+.eventSlide16{
+    background-image: url('../Assets/events_imgs/bg/gintaka.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+}
+.pageHeading{
+    margin-top: 175px;
+    font-size: 5rem;
+    color: red;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+.pageYear{
+    font-size: 3rem;
+    color: red;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+.pageCome{
+    margin-top: 20px;
+    font-size: 2rem;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+.eventHead{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    text-align: start;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.eventContent{
+    border-radius: 30px;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.186);
+    padding: 20px;
+    margin: 20px;
+    font-size: 1rem;
+}
+.mainContent{
+    font-family: sans-serif;
+    text-align: start;
+}
+.eventTeam{
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.eventCoordinators{
+    margin-top: 50px;
+    margin-left: 5%;
+}
+.eventCoordHead{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.eventCoord{
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+.singleImg1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 170px;
+}
+.singleImg2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.singleImg3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 67px;
+}
+.singleImg4{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 150px;
+}
+.singleImg5{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 70px;
+}
+.singleImg6{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 60px;
+    margin-right: -100px;
+}
+.singleImg7{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 80px;
+    margin-right: -80px;
+}
+.singleImg8{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.singleImg9{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 120px;
+}
+.singleImg10{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 50px;
+}
+.singleImg11{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 100px;
+}
+.singleImg12{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -40px;
+}
+.singleImg13{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 50px;
+}
+.singleImg14{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 50px;
+}
+.singleImg15{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 100px;
+}
+.singleImg16{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 110px;
+}
+.fireEffect{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 200px;
+}
+.flowerEffect{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 250px;
+}

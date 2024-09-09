@@ -206,7 +206,11 @@
         font-size: 7.5rem;
         margin-top: 100px;
         margin-bottom: 60px;
-    }    
+    }
+    .register{
+        margin-left: 10px;
+        margin-right: 10px;
+    }  
 }
 @media (max-width:470px){
     .heading{
@@ -214,7 +218,7 @@
         margin-top: 100px;
     }
 }
-@media (max-width: 420px) {
+@media (max-width: 450px) {
     .heading {
         font-size: 5.5rem;
         margin-top: 120px;
@@ -240,15 +244,22 @@
         font-size: 25px;
     }
     .register {
-        margin-left: 20px;
+        margin-left: 0px;
         padding: 7px;
-        margin-right: 20px;
+        font-size: 1rem;
+        margin-right: 0px;
     }
     .register a{
         font-size: 14px;
     }
+    .technology{
+        margin-right: 20px;
+    }
     .technology div {
         font-size: 25px;
+    }
+    .jap-number{
+        margin-left: 20px;
     }
     .jap-number div {
         font-size: 20px;

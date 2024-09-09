@@ -9,8 +9,13 @@ const TeamCarousel = ({ teamName }) => {
     const [teamMembers, setTeamMembers] = useState([]);
     const responsiveOptions = [
         {
+            breakpoint: '2000px',
+            numVisible: 5,
+            numScroll: 1
+        },
+        {
             breakpoint: '1400px',
-            numVisible: 2,
+            numVisible: 4,
             numScroll: 1
         },
         {
@@ -59,7 +64,7 @@ const TeamCarousel = ({ teamName }) => {
     return (
         <div className="card">
             <h3>{teamName}</h3>
-            <Carousel value={teamMembers} numScroll={1} numVisible={5} responsiveOptions={responsiveOptions} itemTemplate={teamTemplate}  autoplayInterval={3000} />
+            <Carousel value={teamMembers} numScroll={1} numVisible={6} responsiveOptions={responsiveOptions} itemTemplate={teamTemplate}  autoplayInterval={3000} />
         </div>
     );
 };
@@ -69,6 +74,7 @@ export default function CircularDemo() {
         <>
         <Nav/>
         <div className='team-det'>
+        <div className='tech'>Symposium Ninjas</div>
             <TeamCarousel teamName="Core Ninjas" />
             <TeamCarousel teamName="Web Developer Ninjas" />
             <TeamCarousel teamName="Web Design Ninjas" />
@@ -77,6 +83,7 @@ export default function CircularDemo() {
             <TeamCarousel teamName="Video Editing Ninjas" />
             <TeamCarousel teamName="Social Media Ninjas" />
             <TeamCarousel teamName="Overall Event Coordinator Ninja" />
+            <div className='tech'>Technical Ninjas</div>
             <TeamCarousel teamName="QUIRK CLASH: PRO VS FOE Ninjas" />
             <TeamCarousel teamName="Dungeon Tech Quiz Ninjas" />
             <TeamCarousel teamName="Zanpakuto capture Ninjas" />
@@ -85,6 +92,7 @@ export default function CircularDemo() {
             <TeamCarousel teamName="Shinobi's Design Quest Ninjas" />
             <TeamCarousel teamName="Stone Age Relay Ninjas" />
             <TeamCarousel teamName="Shadow Code Ninjas" />
+            <div className='tech'>Non-Technical Ninjas</div>
             <TeamCarousel teamName="Sharingan Pixels Ninjas" />
             <TeamCarousel teamName="Tokyo Bid Showdown Ninjas" />
             <TeamCarousel teamName="Titan Tactics Ninjas" />

@@ -30,6 +30,18 @@
     color: red;
     font-size: 1.2em; /* Adjust the font size */
 }
+/* Custom styles for the carousel controls */
+.custom-carousel .p-carousel-prev,
+.custom-carousel .p-carousel-next {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 50%;
+}
+
+.custom-carousel .p-carousel-prev:hover,
+.custom-carousel .p-carousel-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
 
 .ninja-det {
     margin: 0;
@@ -55,14 +67,20 @@
     justify-content: center;
     max-width: 90%; /* Limit the max width */
 }
-
 .card h3 {
     margin-bottom: 20px;
     font-size: 2em; /* Adjusted for scaling */
     color: red;
     text-align: center;
 }
-
+.tech{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 2em; /* Adjusted for scaling */
+    color: red;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
 .team-det{
     width:100%;
     display: flex;
@@ -165,8 +183,8 @@
     }
 
     .member-image {
-        width: 60px;
-        height: 60px;
+        width: 150px;
+        height: 150px;
     }
 
     .member-name {
@@ -213,8 +231,8 @@
     }
 
     .member-image {
-        width: 50px;
-        height: 50px;
+        width: 150px;
+        height: 150px;
     }
 
     .member-name {

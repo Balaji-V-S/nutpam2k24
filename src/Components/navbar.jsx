@@ -7,6 +7,12 @@ import '../styles/navbar.css'
 
 const navbar = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
+  var currentPath = window.location.pathname;
+  if(currentPath==="/"){
+    currentPath+="#footer"
+  }else{
+    currentPath+="/#footer"
+  }
   const [burger_class,setBurgerClass] = useState("burger-bar unclicked")
   const [menu_class,setMenuClass] = useState('menu hidden')
   const [isMenuClicked, setIsMenuClicked] = useState(false)
@@ -47,7 +53,7 @@ const navbar = () => {
                 <Link to="/team">TEAM</Link>
             </li>
             <li>
-                <Link to="/#footer" onClick={handleScrollToFooter}>CONTACT</Link>
+                <Link to={currentPath} onClick={handleScrollToFooter}>CONTACT</Link>
             </li>
         </div>
         <div className="burger-menu" onClick={updateMenu}>

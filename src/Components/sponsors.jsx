@@ -9,6 +9,7 @@ import flink from '../Assets/sponsor_logos/FlinkFusionLogo.png';
 import vyuh from '../Assets/sponsor_logos/vyuh.png';
 import vectra from '../Assets/sponsor_logos/ADVANTAGE PRO LOGO.jpg'
 import ziga from '../Assets/sponsor_logos/ziga.jpg';
+import drone from '../Assets/sponsor_logos/aviatorq.jpg';
 
 const sponsors = () => {
   return (
@@ -63,6 +64,9 @@ const sponsors = () => {
             <a href="https://flinkfusion.com/flinkfusion/">
               <img src={flink} alt="Flink" height={60}/>
             </a>
+          </div>
+          <div className="sponsor">
+            <img src={drone} alt="Aviatorq" height={60}/>
           </div>
         </div>
         <div className="voucher">
