@@ -23,7 +23,7 @@ import last from '../Assets/events/eventbackcover.jpg';
 
 function FlipBook(){
     return(
-        <HTMLFlipBook width={700} height={500} className='flip-book' size='stretch' minWidth={785}>
+        <HTMLFlipBook width={700} height={500} className='flip-book'>
             <div className="demoPage"><img src={Eve1} alt="Page 1"></img></div>
             <div className="demoPage"><img src={Eve2} alt="Page 1"></img></div>
             <div className="demoPage"><img src={Eve3} alt="Page 1"></img></div>
