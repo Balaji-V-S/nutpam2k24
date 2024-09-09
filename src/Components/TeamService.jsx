@@ -65,7 +65,7 @@ import Shrikanth from '../Assets/img/Team/SHRIKANTH_K_S.png';
 import SaiKrithika from '../Assets/img/Team/SAI_KRITHIKA_M.png';
 import Vinay from '../Assets/img/Team/VINAY_B.png';
 import Thiruvikraman from '../Assets/img/Team/THIRUVIKRAMAN_G_S.png';
-import Pavithra from '../Assets/img/Team/PAVITHRA_R.png';
+import Pavithra from '../Assets/img/Team/PAVITHRA.png';
 import Sreenidhi from '../Assets/img/Team/SREENIDHI_R.png';
 import HemaShree from '../Assets/img/Team/HEMASRI_P.png';
 import ArunKumar from '../Assets/img/Team/ARUN_KUMAR_T.png';
@@ -186,17 +186,17 @@ export const TeamService = {
                 team: 'Core Ninjas',
                 image: Krithika
             },
-             {
-                name: 'Balaji V S',
-                role: 'Web Developer',
-                team: 'Web Developer Ninjas',
-                image: Balaji
-            },
             {
                 name: 'Bhaargav Gupta P',
                 role: 'Web Developer',
                 team: 'Web Developer Ninjas',
                 image: Bhaargav
+            },
+             {
+                name: 'Balaji V S',
+                role: 'Web Developer',
+                team: 'Web Developer Ninjas',
+                image: Balaji
             },
             {
                 name: 'Mosuru Abilash',
