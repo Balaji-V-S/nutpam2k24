@@ -2,59 +2,27 @@
     margin: 0;
     padding-top: 70px;
     display: flex;
-    flex-direction: column;
     background: url('../Assets/img/teambg1.png') no-repeat center center fixed;
     font-size: 16px; /* Set a base font size for scaling */
 }
 
-.ninja-head {
-    margin: 0;
-    padding: 0;
-    background: url('../Assets/img/teambg1.png') no-repeat center center fixed;
-    background-size: cover;
+.p-carousel {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
-    font-size: 4em; /* Use em for scalability */
-    text-align: center;
 }
-
-.ninja-head h1 {
-    color: white;
-    font-size: 1.5em; /* Adjust the font size */
-}
-
-.ninja-head h2 {
-    color: red;
-    font-size: 1.2em; /* Adjust the font size */
-}
-/* Custom styles for the carousel controls */
-.custom-carousel .p-carousel-prev,
-.custom-carousel .p-carousel-next {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
-    border-radius: 50%;
-}
-
-.custom-carousel .p-carousel-prev:hover,
-.custom-carousel .p-carousel-next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-.ninja-det {
-    margin: 0;
+.p-carousel-item {
     padding: 0;
-    background: url('../Assets/img/teambg2.jpg') no-repeat center center fixed;
-    background-size: cover;
+    margin: 0;
     display: flex;
-    flex-direction: column; /* Ensure it stacks vertically on small screens */
-    align-items: center;
     justify-content: center;
-    padding: 5px;
 }
-
+.p-icon {
+    /* display: none; */
+    color: black;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
 .card {
     margin: 20px;
     padding: 20px;
@@ -93,9 +61,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    margin: 10px;
-    width: 100%; /* Make the card take full width on small screens */
-    max-width: 250px;
+    margin-bottom: 15px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
@@ -148,34 +114,11 @@
     color: #888;
 }
 
-.p-carousel {
-    width: 100%;
-}
-
-.p-carousel-item {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
-    .ninja-head {
-        font-size: 3em;
-    }
-
-    .ninja-head h1 {
-        font-size: 1.2em;
-    }
-
-    .ninja-head h2 {
-        font-size: 1em;
-    }
-
     .member-card {
-        max-width: 200px;
+        /* max-width: 200px; */
     }
 
     .card h3 {
@@ -201,31 +144,6 @@
 }
 
 @media (max-width: 480px) {
-    .ninja-head {
-        font-size: 2.5em;
-    }
-
-    .ninja-head h1 {
-        font-size: 1em;
-    }
-
-    .ninja-det{
-        margin: 0;
-        padding: 0;
-    }
-
-   .card{
-    margin: 10px 10px;
-    width: fit-content;
-   } 
-    .ninja-head h2 {
-        font-size: 0.8em;
-    }
-
-    .member-card {
-        max-width: 180px;
-    }
-
     .card h3 {
         font-size: 1.2em;
     }
@@ -246,8 +164,4 @@
     .member-team {
         font-size: 0.7em;
     }
-}
-
-.p-icon{
-    display: none;
 }

@@ -7,6 +7,9 @@ import Events from './Pages/EventsPg';
 import Team from './Components/team';
 import NotFound from './Pages/PageNotFound';
 import Preloader from './Components/Preloader';
+import 'primereact/resources/themes/saga-blue/theme.css';  // or your chosen theme
+import 'primereact/resources/primereact.min.css';           // core styles
+import 'primeicons/primeicons.css'; 
 
 function App() {
   const [loading, setLoading] = useState(true);

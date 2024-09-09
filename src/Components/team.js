@@ -1,18 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { Carousel } from 'primereact/carousel';
-import { TeamService } from './TeamService'; // Assuming you saved the team service here
+import { TeamService } from './TeamService';
 import '../styles/team.css';
 import Footer from './footer';
 import Nav from './navbar';
+import { Button } from 'primereact/button'; // Import Button component
 
 const TeamCarousel = ({ teamName }) => {
     const [teamMembers, setTeamMembers] = useState([]);
+    const [currentIndex, setCurrentIndex] = useState(0);
+
     const responsiveOptions = [
-        {
-            breakpoint: '2000px',
-            numVisible: 5,
-            numScroll: 1
-        },
         {
             breakpoint: '1400px',
             numVisible: 4,
@@ -34,6 +32,7 @@ const TeamCarousel = ({ teamName }) => {
             numScroll: 1
         }
     ];
+
     useEffect(() => {
         TeamService.getTeam().then((data) => {
             const filteredMembers = data.filter(member => member.team === teamName);
@@ -41,30 +40,35 @@ const TeamCarousel = ({ teamName }) => {
         });
     }, [teamName]);
 
-    const teamTemplate = (member) => {
-        return (
-            <div className="member-card">
-                <div className="member-info">
-                    <div className="member-image-container">
-                        <img 
-                            src={member.image}
-                            alt={member.name} 
-                            className="member-image" 
-                        />
-                    </div>
-                    <div className="member-details">
-                        <h4 className="member-name">{member.name}</h4>
-                        <h6 className="member-role">{member.role}</h6>
-                    </div>
+    const teamTemplate = (member) => (
+        <div className="member-card">
+            <div className="member-info">
+                <div className="member-image-container">
+                    <img src={member.image} alt={member.name} className="member-image" />
+                </div>
+                <div className="member-details">
+                    <h4 className="member-name">{member.name}</h4>
+                    <h6 className="member-role">{member.role}</h6>
                 </div>
             </div>
-        );
-    };
+        </div>
+    );
 
     return (
         <div className="card">
             <h3>{teamName}</h3>
-            <Carousel value={teamMembers} numScroll={1} numVisible={6} responsiveOptions={responsiveOptions} itemTemplate={teamTemplate}  autoplayInterval={3000} />
+                {/* <Button icon="pi pi-chevron-left" onClick={handlePrev} className="p-button-rounded p-mr-2" /> */}
+                <Carousel
+                    value={teamMembers}
+                    numScroll={1}
+                    numVisible={5}
+                    responsiveOptions={responsiveOptions}
+                    itemTemplate={teamTemplate}
+                    circular
+                    first={currentIndex}
+                />
+                {/* <Button icon="pi pi-chevron-right" onClick={handleNext} className="p-button-rounded p-ml-2" /> */}
+            
         </div>
     );
 };
