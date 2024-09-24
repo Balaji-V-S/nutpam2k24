@@ -127,6 +127,7 @@ import Harsha from '../Assets/img/Team/HARSHA_V.png';
 import Sandhya from '../Assets/img/Team/SANDHYA_K_B.png';
 import AbishaEunice from '../Assets/img/Team/ABISHA_EUNICE_A.png';
 import SarveshrajM from '../Assets/img/Team/SARVESHRAJ_M.png';
+import Abiram from '../Assets/img/Team/abiram.jpg';
 
 
 export const TeamService = {
@@ -651,6 +652,12 @@ export const TeamService = {
                 role: 'Event Coordinator',
                 team: 'Shadow Code Ninjas',
                 image: Harisharajan
+            },
+            {
+                name: 'Abiram R',
+                role: 'Event Coordinator',
+                team: 'Shadow Code Ninjas',
+                image: Abiram
             },
             {
                 name: 'Gayathri',
