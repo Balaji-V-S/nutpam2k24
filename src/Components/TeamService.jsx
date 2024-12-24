@@ -188,13 +188,13 @@ export const TeamService = {
                 image: Krithika
             },
             {
-                name: 'Bhaargav Gupta P',
-                role: 'Web Developer',
+                name: 'Balaji V S',
+                role: 'Web Team Lead',
                 team: 'Web Developer Ninjas',
                 image: Bhaargav
             },
              {
-                name: 'Balaji V S',
+                name: 'Bhaargav Gupta P',
                 role: 'Web Developer',
                 team: 'Web Developer Ninjas',
                 image: Balaji
